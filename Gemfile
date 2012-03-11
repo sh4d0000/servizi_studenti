@@ -6,7 +6,20 @@ gem 'rails', '3.2.1'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'mysql2'
+gem 'therubyracer'
+gem 'nokogiri'
 
+group :development, :test do
+	gem 'rspec-rails', '~> 2.5'
+end
+
+group :test do
+	gem 'cucumber-rails'
+	gem 'capybara'
+	gem 'database_cleaner'
+	gem 'factory_girl'
+	gem 'launchy'
+end
 
 # Gems used only for assets and not required
 # in production environments by default.
