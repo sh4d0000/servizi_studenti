@@ -1,4 +1,8 @@
 ServiziStudenti::Application.routes.draw do
+  resources :students
+
+  get 'students/:id/key' => 'students#key', :as => :key 
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

@@ -1,0 +1,1970 @@
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/keys?password=[FILTERED]" for 127.0.0.1 at 2012-03-12 08:50:19 +0100
+Processing by StudentsController#show as HTML
+  Parameters: {"password"=>"[FILTERED]", "id"=>"keys"}
+  [1m[35mStudent Load (0.6ms)[0m  SELECT `students`.* FROM `students` WHERE `students`.`id` = 0 LIMIT 1
+Completed 500 Internal Server Error in 15ms
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/keys?password=[FILTERED]" for 127.0.0.1 at 2012-03-12 09:06:29 +0100
+Processing by StudentsController#keys as HTML
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416"}
+Completed 406 Not Acceptable in 1ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/keys?password=[FILTERED]" for 127.0.0.1 at 2012-03-12 09:09:11 +0100
+Processing by StudentsController#keys as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/keys?password=[FILTERED]" for 127.0.0.1 at 2012-03-12 09:10:47 +0100
+Processing by StudentsController#keys as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/keys?password=[FILTERED]" for 127.0.0.1 at 2012-03-12 09:12:51 +0100
+Processing by StudentsController#keys as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/keys?password=[FILTERED]" for 127.0.0.1 at 2012-03-12 09:59:40 +0100
+Processing by StudentsController#keys as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 500 Internal Server Error in 95ms
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/keys?password=[FILTERED]" for 127.0.0.1 at 2012-03-12 10:02:23 +0100
+Processing by StudentsController#keys as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 500 Internal Server Error in 479ms
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/keys?password=[FILTERED]" for 127.0.0.1 at 2012-03-12 10:23:43 +0100
+Processing by StudentsController#keys as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 500 Internal Server Error in 535ms
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/keys?password=[FILTERED]" for 127.0.0.1 at 2012-03-12 10:30:50 +0100
+Processing by StudentsController#keys as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 500 Internal Server Error in 394ms
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/keys?password=[FILTERED]" for 127.0.0.1 at 2012-03-12 10:33:07 +0100
+Processing by StudentsController#keys as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 500 Internal Server Error in 684ms
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/keys?password=[FILTERED]" for 127.0.0.1 at 2012-03-12 10:36:49 +0100
+Processing by StudentsController#keys as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 500 Internal Server Error in 411ms
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/keys?password=[FILTERED]" for 127.0.0.1 at 2012-03-12 10:43:56 +0100
+Processing by StudentsController#keys as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 500 Internal Server Error in 509ms
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/keys?password=[FILTERED]" for 127.0.0.1 at 2012-03-12 10:44:28 +0100
+Processing by StudentsController#keys as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 500 Internal Server Error in 1ms
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/keys?password=[FILTERED]" for 127.0.0.1 at 2012-03-12 10:44:59 +0100
+Processing by StudentsController#keys as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1459ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/keys?password=[FILTERED]" for 127.0.0.1 at 2012-03-12 11:13:34 +0100
+Processing by StudentsController#keys as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1616ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/keys?password=[FILTERED]" for 127.0.0.1 at 2012-03-12 11:34:13 +0100
+Processing by StudentsController#keys as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 500 Internal Server Error in 1812ms
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/keys?password=[FILTERED]" for 127.0.0.1 at 2012-03-12 11:35:16 +0100
+Processing by StudentsController#keys as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 500 Internal Server Error in 1804ms
+  [1m[35m (2.8ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/keys?password=[FILTERED]" for 127.0.0.1 at 2012-03-12 11:35:59 +0100
+Processing by StudentsController#keys as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1504ms (Views: 0.3ms | ActiveRecord: 1.7ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/keys?password=[FILTERED]" for 127.0.0.1 at 2012-03-12 11:36:59 +0100
+Processing by StudentsController#keys as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1584ms (Views: 0.7ms | ActiveRecord: 2.3ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/keys?password=[FILTERED]" for 127.0.0.1 at 2012-03-12 11:38:01 +0100
+Processing by StudentsController#keys as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1625ms (Views: 0.8ms | ActiveRecord: 1.1ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/keys?password=[FILTERED]" for 127.0.0.1 at 2012-03-12 11:39:12 +0100
+Processing by StudentsController#keys as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1854ms (Views: 0.9ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/students/" for 127.0.0.1 at 2012-03-12 11:39:14 +0100
+Processing by StudentsController#index as JSON
+  Parameters: {"student"=>{}}
+Completed 500 Internal Server Error in 143ms
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/keys?password=[FILTERED]" for 127.0.0.1 at 2012-03-12 11:41:47 +0100
+Processing by StudentsController#keys as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1719ms (Views: 0.5ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/students/" for 127.0.0.1 at 2012-03-12 11:41:48 +0100
+Processing by StudentsController#index as JSON
+  Parameters: {"student"=>{}}
+Completed 500 Internal Server Error in 123ms
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.8ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-12 11:45:51 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1455ms (Views: 0.8ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/students/" for 127.0.0.1 at 2012-03-12 11:45:53 +0100
+Processing by StudentsController#index as JSON
+  Parameters: {"student"=>{}}
+Completed 500 Internal Server Error in 134ms
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-12 11:46:53 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1523ms (Views: 0.5ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/students/" for 127.0.0.1 at 2012-03-12 11:46:54 +0100
+Processing by StudentsController#index as JSON
+  Parameters: {"student"=>{}}
+Completed 500 Internal Server Error in 135ms
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-12 11:49:54 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 2272ms (Views: 0.8ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/students/0108001416" for 127.0.0.1 at 2012-03-12 11:49:57 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+  [1m[35mStudent Load (54.8ms)[0m  SELECT `students`.* FROM `students` WHERE `students`.`id` = 108001416 LIMIT 1
+Completed 500 Internal Server Error in 80ms
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-12 11:56:23 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1516ms (Views: 0.9ms | ActiveRecord: 1.7ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-12 11:59:50 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1600ms (Views: 0.8ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/students/0108001416?P_1XXD=7245770232175261091090460494160287606026&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=33347&created_at&id&updated_at" for 127.0.0.1 at 2012-03-12 11:59:52 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"7245770232175261091090460494160287606026", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"33347", "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+  [1m[35mStudent Load (0.2ms)[0m  SELECT `students`.* FROM `students` WHERE `students`.`id` = 108001416 LIMIT 1
+Completed 500 Internal Server Error in 5ms
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-12 12:04:43 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1495ms (Views: 0.7ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/students/0108001416?P_1XXD=7245770232175261091086312667648909467007&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=32314&created_at&id&updated_at" for 127.0.0.1 at 2012-03-12 12:04:45 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"7245770232175261091086312667648909467007", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"32314", "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+Completed 200 OK in 843ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-12 12:09:22 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 2416ms (Views: 0.5ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/students/0108001416?P_1XXD=7245770232175261091027899241715547357061&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=32319&created_at&id&updated_at" for 127.0.0.1 at 2012-03-12 12:09:24 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"7245770232175261091027899241715547357061", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"32319", "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+Completed 200 OK in 725ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-12 12:10:25 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1323ms (Views: 0.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/students/0108001416?P_1XXD=7245770232175261091062966854994301199842&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=32567&created_at&id&updated_at" for 127.0.0.1 at 2012-03-12 12:10:26 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"7245770232175261091062966854994301199842", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"32567", "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+Completed 200 OK in 619ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-12 12:16:12 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1889ms (Views: 0.5ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/students/0108001416?P_1XXD=7245770232175261091014609214200876685226&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=32573&created_at&id&updated_at" for 127.0.0.1 at 2012-03-12 12:16:14 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"7245770232175261091014609214200876685226", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"32573", "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+<tr>
+<th class="thtd_d0d9e9  coloretestoth testoasinistra" scope="col">Cognome </th>
+<td class="wdescr40pc"></td>
+</tr>
+
+<tr>
+<th class="thtd_d0d9e9  coloretestoth testoasinistra" scope="col">Nome </th>
+<td class="wdescr40pc"></td>
+</tr>
+
+<tr>
+<th class="thtd_d0d9e9  coloretestoth testoasinistra" scope="col">Sesso </th>
+<td class="wdescr40pc"></td>
+</tr>
+
+<tr>
+<th class="thtd_d0d9e9  coloretestoth testoasinistra" scope="col">Cittadinanza </th>
+<td class="wdescr40pc"></td>
+</tr>
+
+<tr>
+<th class="thtd_d0d9e9  coloretestoth testoasinistra" scope="col">Codice Fiscale </th>
+<td class="wdescr40pc"></td>
+</tr>
+Completed 200 OK in 868ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-12 12:19:42 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1617ms (Views: 0.8ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/students/0108001416?P_1XXD=7245770232175261091070106891419372324530&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=32576&created_at&id&updated_at" for 127.0.0.1 at 2012-03-12 12:19:43 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"7245770232175261091070106891419372324530", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"32576", "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+Cognome 
+
+Nome 
+
+Sesso 
+
+Cittadinanza 
+
+Codice Fiscale 
+
+Completed 200 OK in 676ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-12 12:23:09 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1777ms (Views: 0.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/students/0108001416?P_1XXD=7245770232175261091000150889190504118301&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=32827&created_at&id&updated_at" for 127.0.0.1 at 2012-03-12 12:23:11 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"7245770232175261091000150889190504118301", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"32827", "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+Cognome 
+
+Nome 
+
+Sesso 
+
+Cittadinanza 
+
+Codice Fiscale 
+
+Completed 200 OK in 708ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-12 12:26:27 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1547ms (Views: 0.5ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/students/0108001416?P_1XXD=7245770232175261091026921900527249729781&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=32830&created_at&id&updated_at" for 127.0.0.1 at 2012-03-12 12:26:29 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"7245770232175261091026921900527249729781", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"32830", "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+Cognome 
+
+Nome 
+
+Sesso 
+
+Cittadinanza 
+
+Codice Fiscale 
+
+Completed 200 OK in 626ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-12 19:36:32 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 15403ms (Views: 0.6ms | ActiveRecord: 22.3ms)
+
+
+Started GET "/students/0108001416?P_1XXD=7245770232175261091091060315709542285792&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=34886&created_at&id&updated_at" for 127.0.0.1 at 2012-03-12 19:36:47 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"7245770232175261091091060315709542285792", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"34886", "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+Cognome 
+
+Nome 
+
+Sesso 
+
+Cittadinanza 
+
+Codice Fiscale 
+
+Completed 200 OK in 8187ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-12 19:46:51 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 19557ms (Views: 0.5ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/students/0108001416?P_1XXD=7245770232175261091063139866701105060483&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=35143&created_at&id&updated_at" for 127.0.0.1 at 2012-03-12 19:47:10 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"7245770232175261091063139866701105060483", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"35143", "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+Cognome 
+
+Nome 
+
+Sesso 
+
+Cittadinanza 
+
+Codice Fiscale 
+
+Completed 200 OK in 6012ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-12 20:00:36 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 17500ms (Views: 0.5ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/students/0108001416?P_1XXD=7245770232175261091051543076808387110629&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=32053&created_at&id&updated_at" for 127.0.0.1 at 2012-03-12 20:00:53 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"7245770232175261091051543076808387110629", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"32053", "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+Completed 500 Internal Server Error in 13186ms
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-12 20:01:52 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 28558ms (Views: 0.5ms | ActiveRecord: 4.1ms)
+
+
+Started GET "/students/0108001416?P_1XXD=7245770232175261091065924733077562697666&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=32055&created_at&id&updated_at" for 127.0.0.1 at 2012-03-12 20:02:20 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"7245770232175261091065924733077562697666", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"32055", "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+Completed 500 Internal Server Error in 9452ms
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-12 20:03:03 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 12678ms (Views: 0.4ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/students/0108001416?P_1XXD=7245770232175261091043355987793886378847&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=32056&created_at&id&updated_at" for 127.0.0.1 at 2012-03-12 20:03:16 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"7245770232175261091043355987793886378847", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"32056", "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+<a title="" href="gwebcontroller.runModulo?pmodName=SSGISSWU&amp;pItemTitle=&amp;P_1XXD=7245770232175261091043355987793886378847&amp;P_2XXI=8164864248189188986636075745398284037334&amp;P_3XXC=6356&amp;p_cod_lingua=004">Anagrafica</a>
+Cognome 
+
+Nome 
+
+Sesso 
+
+Cittadinanza 
+
+Codice Fiscale 
+
+Completed 200 OK in 3777ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-12 20:10:18 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1678ms (Views: 0.6ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/students/0108001416?P_1XXD=7245770232175261091061584661913397759139&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=32310&created_at&id&updated_at" for 127.0.0.1 at 2012-03-12 20:10:20 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"7245770232175261091061584661913397759139", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"32310", "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+Cognome 
+ANTONELLI
+Nome 
+ANTONIO
+Sesso 
+MASCHILE
+Cittadinanza 
+ITALIANA
+Codice Fiscale 
+NTNNTN85S12C361A
+Completed 200 OK in 1619ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-12 20:15:02 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1926ms (Views: 0.9ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/students/0108001416?P_1XXD=7245770232175261091091839000276441863038&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=32315&created_at&id&updated_at" for 127.0.0.1 at 2012-03-12 20:15:04 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"7245770232175261091091839000276441863038", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"32315", "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+cognome 
+antonelli
+nome 
+antonio
+sesso 
+maschile
+cittadinanza 
+italiana
+codice fiscale 
+ntnntn85s12c361a
+Completed 200 OK in 1875ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-12 20:17:59 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1770ms (Views: 0.4ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/students/0108001416?P_1XXD=7245770232175261091015405719910913751956&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=32318&created_at&id&updated_at" for 127.0.0.1 at 2012-03-12 20:18:01 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"7245770232175261091015405719910913751956", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"32318", "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+Completed 500 Internal Server Error in 2142ms
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-12 20:18:45 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 2360ms (Views: 0.9ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/students/0108001416?P_1XXD=7245770232175261091015405719910913751956&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=32318&created_at&id&updated_at" for 127.0.0.1 at 2012-03-12 20:18:48 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"7245770232175261091015405719910913751956", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"32318", "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+{"cognome "=>"antonelli", "nome "=>"antonio", "sesso "=>"maschile", "cittadinanza "=>"italiana", "codice fiscale "=>"ntnntn85s12c361a"}
+Completed 200 OK in 1278ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-12 20:21:31 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 2258ms (Views: 0.5ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/students/0108001416?P_1XXD=7245770232175261091045576551965667136164&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=32568&created_at&id&updated_at" for 127.0.0.1 at 2012-03-12 20:21:33 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"7245770232175261091045576551965667136164", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"32568", "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+Completed 500 Internal Server Error in 1507ms
+  [1m[35m (0.7ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-12 20:26:06 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1240ms (Views: 0.4ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/students/0108001416?P_1XXD=7245770232175261091043394092156160950772&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=32573&created_at&id&updated_at" for 127.0.0.1 at 2012-03-12 20:26:07 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"7245770232175261091043394092156160950772", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"32573", "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+{"cognome"=>"antonelli", "nome"=>"antonio", "sesso"=>"maschile", "cittadinanza"=>"italiana", "codice fiscale"=>"ntnntn85s12c361a"}
+Completed 200 OK in 2842ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-12 20:58:31 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1431ms (Views: 0.7ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/students/0108001416?P_1XXD=7245770232175261091038116248796957197810&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=33346&created_at&id&updated_at" for 127.0.0.1 at 2012-03-12 20:58:32 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"7245770232175261091038116248796957197810", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"33346", "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+Completed 500 Internal Server Error in 1950ms
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-12 20:59:21 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1404ms (Views: 0.5ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/students/0108001416?P_1XXD=7245770232175261091023042547260387068036&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=33347&created_at&id&updated_at" for 127.0.0.1 at 2012-03-12 20:59:22 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"7245770232175261091023042547260387068036", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"33347", "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+Completed 500 Internal Server Error in 4480ms
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-12 21:00:06 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 6729ms (Views: 0.5ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/students/0108001416?P_1XXD=7245770232175261091054399416460393907161&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=32310&created_at&id&updated_at" for 127.0.0.1 at 2012-03-12 21:00:13 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"7245770232175261091054399416460393907161", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"32310", "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+{"cognome"=>"antonelli", "nome"=>"antonio", "sesso"=>"maschile", "cittadinanza"=>"italiana", "codice fiscale"=>"ntnntn85s12c361a"}
+Completed 500 Internal Server Error in 1947ms
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-12 21:02:28 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1447ms (Views: 0.7ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/students/0108001416?P_1XXD=7245770232175261091088209517632139203137&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=32312&created_at&id&updated_at" for 127.0.0.1 at 2012-03-12 21:02:29 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"7245770232175261091088209517632139203137", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"32312", "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+cognome
+nome
+sesso
+cittadinanza
+codice fiscale
+{"cognome"=>"antonelli", "nome"=>"antonio", "sesso"=>"maschile", "cittadinanza"=>"italiana", "codice fiscale"=>"ntnntn85s12c361a"}
+Completed 500 Internal Server Error in 1572ms
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-12 21:03:58 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1330ms (Views: 0.5ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/students/0108001416?P_1XXD=7245770232175261091095427586655070939390&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=32313&created_at&id&updated_at" for 127.0.0.1 at 2012-03-12 21:03:59 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"7245770232175261091095427586655070939390", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"32313", "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+cognome
+nome
+sesso
+cittadinanza
+codice fiscale
+<table class="table80" summary="La tabella di layout  contenente i dati anagrafici">
+<tr>
+<th class="thtd_d0d9e9  coloretestoth testoasinistra" scope="col">Cognome </th>
+<td class="wdescr40pc">ANTONELLI</td>
+</tr>
+<tr>
+<th class="thtd_d0d9e9  coloretestoth testoasinistra" scope="col">Nome </th>
+<td class="wdescr40pc">ANTONIO</td>
+</tr>
+<tr>
+<th class="thtd_d0d9e9  coloretestoth testoasinistra" scope="col">Sesso </th>
+<td class="wdescr40pc">MASCHILE</td>
+</tr>
+<th class="thtd_d0d9e9 coloretestoth testoasinistra" scope="col">Nato a/il </th>
+<td class="wdescr40pc">CAVA DE' TIRRENI (SA) - 12/11/1985</td>
+
+<tr>
+<th class="thtd_d0d9e9  coloretestoth testoasinistra" scope="col">Cittadinanza </th>
+<td class="wdescr40pc">ITALIANA</td>
+</tr>
+<tr>
+<th class="thtd_d0d9e9  coloretestoth testoasinistra" scope="col">Codice Fiscale </th>
+<td class="wdescr40pc">NTNNTN85S12C361A</td>
+</tr>
+</table>
+{"cognome"=>"antonelli", "nome"=>"antonio", "sesso"=>"maschile", "cittadinanza"=>"italiana", "codice fiscale"=>"ntnntn85s12c361a"}
+Completed 500 Internal Server Error in 1448ms
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-12 21:11:02 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1344ms (Views: 0.5ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/students/0108001416?P_1XXD=7245770232175261091087909141644332714091&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=32568&created_at&id&updated_at" for 127.0.0.1 at 2012-03-12 21:11:04 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"7245770232175261091087909141644332714091", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"32568", "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+cognome
+nome
+sesso
+cittadinanza
+codice fiscale
+<table class="table80" summary="La tabella di layout  contenente i dati anagrafici">
+<tr>
+<th class="thtd_d0d9e9  coloretestoth testoasinistra" scope="col">Cognome </th>
+<td class="wdescr40pc">ANTONELLI</td>
+</tr>
+<tr>
+<th class="thtd_d0d9e9  coloretestoth testoasinistra" scope="col">Nome </th>
+<td class="wdescr40pc">ANTONIO</td>
+</tr>
+<tr>
+<th class="thtd_d0d9e9  coloretestoth testoasinistra" scope="col">Sesso </th>
+<td class="wdescr40pc">MASCHILE</td>
+</tr>
+<th class="thtd_d0d9e9 coloretestoth testoasinistra" scope="col">Nato a/il </th>
+<td class="wdescr40pc">CAVA DE' TIRRENI (SA) - 12/11/1985</td>
+
+<tr>
+<th class="thtd_d0d9e9  coloretestoth testoasinistra" scope="col">Cittadinanza </th>
+<td class="wdescr40pc">ITALIANA</td>
+</tr>
+<tr>
+<th class="thtd_d0d9e9  coloretestoth testoasinistra" scope="col">Codice Fiscale </th>
+<td class="wdescr40pc">NTNNTN85S12C361A</td>
+</tr>
+</table>
+{"cognome"=>"antonelli", "nome"=>"antonio", "sesso"=>"maschile", "cittadinanza"=>"italiana", "codice fiscale"=>"ntnntn85s12c361a"}
+Completed 500 Internal Server Error in 7818ms
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-12 21:12:29 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 6610ms (Views: 0.7ms | ActiveRecord: 4.4ms)
+
+
+Started GET "/students/0108001416?P_1XXD=7245770232175261091020034560292106601541&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=32569&created_at&id&updated_at" for 127.0.0.1 at 2012-03-12 21:12:35 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"7245770232175261091020034560292106601541", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"32569", "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+{"cognome"=>"antonelli", "nome"=>"antonio", "sesso"=>"maschile", "cittadinanza"=>"italiana", "codice fiscale"=>"ntnntn85s12c361a"}
+#<Student:0xa48d460>
+Completed 200 OK in 2038ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-12 21:13:25 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 2628ms (Views: 0.5ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/students/0108001416?P_1XXD=7245770232175261091037895328497041144884&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=32570&created_at&id&updated_at" for 127.0.0.1 at 2012-03-12 21:13:28 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"7245770232175261091037895328497041144884", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"32570", "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+{"cognome"=>"antonelli", "nome"=>"antonio", "sesso"=>"maschile", "cittadinanza"=>"italiana", "codice fiscale"=>"ntnntn85s12c361a"}
+#<Student:0xa3fe1c0>
+Completed 200 OK in 1654ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-12 21:16:26 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 2311ms (Views: 1.9ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/students/0108001416?P_1XXD=7245770232175261091064788449148194191571&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=32573&created_at&id&updated_at" for 127.0.0.1 at 2012-03-12 21:16:29 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"7245770232175261091064788449148194191571", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"32573", "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+{"cognome"=>"antonelli", "nome"=>"antonio", "sesso"=>"maschile", "cittadinanza"=>"italiana", "codice fiscale"=>"ntnntn85s12c361a"}
+#<Student id: nil, surname: "antonelli", name: "antonio", gender: "maschile", date_of_birth: "1985-11-12", place_of_birth: "CAVA DE' TIRRENI (SA)", citizenship: "italiana", tax_code: "ntnntn85s12c361a", created_at: nil, updated_at: nil>
+Completed 200 OK in 1813ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-13 14:49:07 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1336ms (Views: 0.5ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/students/0108001416?P_1XXD=7245770232175261091083276860459571584221&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=34118&created_at&id&updated_at" for 127.0.0.1 at 2012-03-13 14:49:08 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"7245770232175261091083276860459571584221", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"34118", "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+{"cognome"=>"antonelli", "nome"=>"antonio", "sesso"=>"maschile", "cittadinanza"=>"italiana", "codice fiscale"=>"ntnntn85s12c361a"}
+#<Student id: nil, surname: "antonelli", name: "antonio", gender: "maschile", date_of_birth: "1985-11-12", place_of_birth: "CAVA DE' TIRRENI (SA)", citizenship: "italiana", tax_code: "ntnntn85s12c361a", created_at: nil, updated_at: nil>
+Completed 200 OK in 1367ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-13 14:51:14 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1905ms (Views: 0.5ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/students/0108001416?P_1XXD=7245770232175261091092188956664652470937&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=34367&created_at&id&updated_at" for 127.0.0.1 at 2012-03-13 14:51:16 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"7245770232175261091092188956664652470937", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"34367", "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+{"cognome"=>"antonelli", "nome"=>"antonio", "sesso"=>"maschile", "cittadinanza"=>"italiana", "codice fiscale"=>"ntnntn85s12c361a"}
+#<Student id: nil, surname: "antonelli", name: "antonio", gender: "maschile", date_of_birth: "1985-11-12", place_of_birth: "CAVA DE' TIRRENI (SA)", citizenship: "italiana", tax_code: "ntnntn85s12c361a", created_at: nil, updated_at: nil>
+Completed 200 OK in 1910ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-13 14:52:22 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1819ms (Views: 0.6ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/students/0108001416?P_1XXD=7245770232175261091038222834183390045348&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=34368&created_at&id&updated_at" for 127.0.0.1 at 2012-03-13 14:52:24 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"7245770232175261091038222834183390045348", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"34368", "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+{"cognome"=>"antonelli", "nome"=>"antonio", "sesso"=>"maschile", "cittadinanza"=>"italiana", "codice fiscale"=>"ntnntn85s12c361a"}
+#<Student id: nil, surname: "antonelli", name: "antonio", gender: "maschile", date_of_birth: "1985-11-12", place_of_birth: "CAVA DE' TIRRENI (SA)", citizenship: "italiana", tax_code: "ntnntn85s12c361a", created_at: nil, updated_at: nil>
+Completed 200 OK in 1520ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-13 14:53:04 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1323ms (Views: 0.4ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/students/0108001416?P_1XXD=7245770232175261091025672333172794187313&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=34369&created_at&id&updated_at" for 127.0.0.1 at 2012-03-13 14:53:05 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"7245770232175261091025672333172794187313", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"34369", "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+{"cognome"=>"antonelli", "nome"=>"antonio", "sesso"=>"maschile", "cittadinanza"=>"italiana", "codice fiscale"=>"ntnntn85s12c361a"}
+#<Student id: nil, surname: "antonelli", name: "antonio", gender: "maschile", date_of_birth: "1985-11-12", place_of_birth: "CAVA DE' TIRRENI (SA)", citizenship: "italiana", tax_code: "ntnntn85s12c361a", created_at: nil, updated_at: nil>
+Completed 200 OK in 1192ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-13 15:14:40 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1455ms (Views: 0.6ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/students/0108001416?P_1XXD=7245770232175261091079321505859986654383&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=33599&created_at&id&updated_at" for 127.0.0.1 at 2012-03-13 15:14:41 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"7245770232175261091079321505859986654383", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"33599", "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+{"cognome"=>"antonelli", "nome"=>"antonio", "sesso"=>"maschile", "cittadinanza"=>"italiana", "codice fiscale"=>"ntnntn85s12c361a"}
+#<Student id: nil, surname: "antonelli", name: "antonio", gender: "maschile", date_of_birth: "1985-11-12", place_of_birth: "CAVA DE' TIRRENI (SA)", citizenship: "italiana", tax_code: "ntnntn85s12c361a", created_at: nil, updated_at: nil>
+Completed 200 OK in 1607ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-13 15:36:26 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 4150ms (Views: 0.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/students/0108001416?P_1XXD=7245770232175261091020475909068634172542&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=34115&created_at&id&updated_at" for 127.0.0.1 at 2012-03-13 15:36:30 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"7245770232175261091020475909068634172542", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"34115", "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+{"cognome"=>"antonelli", "nome"=>"antonio", "sesso"=>"maschile", "cittadinanza"=>"italiana", "codice fiscale"=>"ntnntn85s12c361a"}
+#<Student id: nil, surname: "antonelli", name: "antonio", gender: "maschile", date_of_birth: "1985-11-12", place_of_birth: "CAVA DE' TIRRENI (SA)", citizenship: "italiana", tax_code: "ntnntn85s12c361a", created_at: nil, updated_at: nil>
+Completed 200 OK in 2596ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-13 15:38:07 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1277ms (Views: 0.4ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/students/0108001416?P_1XXD=7245770232175261091007628123709410548898&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=34117&created_at&id&updated_at" for 127.0.0.1 at 2012-03-13 15:38:08 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"7245770232175261091007628123709410548898", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"34117", "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+{"cognome"=>"antonelli", "nome"=>"antonio", "sesso"=>"maschile", "cittadinanza"=>"italiana", "codice fiscale"=>"ntnntn85s12c361a"}
+#<Student id: nil, surname: "antonelli", name: "antonio", gender: "maschile", date_of_birth: "1985-11-12", place_of_birth: "CAVA DE' TIRRENI (SA)", citizenship: "italiana", tax_code: "ntnntn85s12c361a", created_at: nil, updated_at: nil>
+Completed 200 OK in 2167ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-13 15:39:17 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1713ms (Views: 0.6ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/students/0108001416?P_1XXD=7245770232175261091081793643341218189585&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=34118&created_at&id&updated_at" for 127.0.0.1 at 2012-03-13 15:39:19 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"7245770232175261091081793643341218189585", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"34118", "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+{"cognome"=>"antonelli", "nome"=>"antonio", "sesso"=>"maschile", "cittadinanza"=>"italiana", "codice fiscale"=>"ntnntn85s12c361a"}
+#<Student id: nil, surname: "antonelli", name: "antonio", gender: "maschile", date_of_birth: "1985-11-12", place_of_birth: "CAVA DE' TIRRENI (SA)", citizenship: "italiana", tax_code: "ntnntn85s12c361a", created_at: nil, updated_at: nil>
+Completed 200 OK in 1452ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-13 15:39:44 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 2421ms (Views: 0.4ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/students/0108001416?P_1XXD=7245770232175261091081793643341218189585&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=34118&created_at&id&updated_at" for 127.0.0.1 at 2012-03-13 15:39:46 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"7245770232175261091081793643341218189585", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"34118", "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+{"cognome"=>"antonelli", "nome"=>"antonio", "sesso"=>"maschile", "cittadinanza"=>"italiana", "codice fiscale"=>"ntnntn85s12c361a"}
+#<Student id: nil, surname: "antonelli", name: "antonio", gender: "maschile", date_of_birth: "1985-11-12", place_of_birth: "CAVA DE' TIRRENI (SA)", citizenship: "italiana", tax_code: "ntnntn85s12c361a", created_at: nil, updated_at: nil>
+Completed 200 OK in 1927ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-13 15:40:23 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1788ms (Views: 0.5ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/students/0108001416?P_1XXD=7245770232175261091025303621848200516649&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=34366&created_at&id&updated_at" for 127.0.0.1 at 2012-03-13 15:40:24 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"7245770232175261091025303621848200516649", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"34366", "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+{"cognome"=>"antonelli", "nome"=>"antonio", "sesso"=>"maschile", "cittadinanza"=>"italiana", "codice fiscale"=>"ntnntn85s12c361a"}
+#<Student id: nil, surname: "antonelli", name: "antonio", gender: "maschile", date_of_birth: "1985-11-12", place_of_birth: "CAVA DE' TIRRENI (SA)", citizenship: "italiana", tax_code: "ntnntn85s12c361a", created_at: nil, updated_at: nil>
+Completed 200 OK in 1532ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-13 15:41:27 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 2687ms (Views: 0.4ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/students/0108001416?P_1XXD=7245770232175261091035310605831959140436&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=34367&created_at&id&updated_at" for 127.0.0.1 at 2012-03-13 15:41:29 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"7245770232175261091035310605831959140436", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"34367", "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+{"cognome"=>"antonelli", "nome"=>"antonio", "sesso"=>"maschile", "cittadinanza"=>"italiana", "codice fiscale"=>"ntnntn85s12c361a"}
+#<Student id: nil, surname: "antonelli", name: "antonio", gender: "maschile", date_of_birth: "1985-11-12", place_of_birth: "CAVA DE' TIRRENI (SA)", citizenship: "italiana", tax_code: "ntnntn85s12c361a", created_at: nil, updated_at: nil>
+Completed 200 OK in 2904ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-13 15:43:26 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 2840ms (Views: 0.4ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/students/0108001416?P_1XXD=7245770232175261091080694713826522723976&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=34369&created_at&id&updated_at" for 127.0.0.1 at 2012-03-13 15:43:29 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"7245770232175261091080694713826522723976", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"34369", "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+{"cognome"=>"antonelli", "nome"=>"antonio", "sesso"=>"maschile", "cittadinanza"=>"italiana", "codice fiscale"=>"ntnntn85s12c361a"}
+#<Student id: nil, surname: "antonelli", name: "antonio", gender: "maschile", date_of_birth: "1985-11-12", place_of_birth: "CAVA DE' TIRRENI (SA)", citizenship: "italiana", tax_code: "ntnntn85s12c361a", created_at: nil, updated_at: nil>
+Completed 200 OK in 3336ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-13 15:45:33 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1292ms (Views: 0.5ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/students/0108001416?P_1XXD=7245770232175261091051913295265736708584&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=34371&created_at&id&updated_at" for 127.0.0.1 at 2012-03-13 15:45:35 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"7245770232175261091051913295265736708584", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"34371", "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+{"cognome"=>"antonelli", "nome"=>"antonio", "sesso"=>"maschile", "cittadinanza"=>"italiana", "codice fiscale"=>"ntnntn85s12c361a"}
+#<Student id: nil, surname: "antonelli", name: "antonio", gender: "maschile", date_of_birth: "1985-11-12", place_of_birth: "CAVA DE' TIRRENI (SA)", citizenship: "italiana", tax_code: "ntnntn85s12c361a", created_at: nil, updated_at: nil>
+Completed 200 OK in 1348ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-13 15:47:06 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1604ms (Views: 0.5ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/students/0108001416?P_1XXD=7245770232175261091048938723557708085477&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=34373&created_at&id&updated_at" for 127.0.0.1 at 2012-03-13 15:47:08 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"7245770232175261091048938723557708085477", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"34373", "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+{"cognome"=>"antonelli", "nome"=>"antonio", "sesso"=>"maschile", "cittadinanza"=>"italiana", "codice fiscale"=>"ntnntn85s12c361a"}
+#<Student id: nil, surname: "antonelli", name: "antonio", gender: "maschile", date_of_birth: "1985-11-12", place_of_birth: "CAVA DE' TIRRENI (SA)", citizenship: "italiana", tax_code: "ntnntn85s12c361a", created_at: nil, updated_at: nil>
+Completed 200 OK in 3634ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-13 15:48:33 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1409ms (Views: 0.5ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/students/0108001416?P_1XXD=7245770232175261091081921798085691775119&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=34374&created_at&id&updated_at" for 127.0.0.1 at 2012-03-13 15:48:35 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"7245770232175261091081921798085691775119", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"34374", "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+{"cognome"=>"antonelli", "nome"=>"antonio", "sesso"=>"maschile", "cittadinanza"=>"italiana", "codice fiscale"=>"ntnntn85s12c361a"}
+#<Student id: nil, surname: "antonelli", name: "antonio", gender: "maschile", date_of_birth: "1985-11-12", place_of_birth: "CAVA DE' TIRRENI (SA)", citizenship: "italiana", tax_code: "ntnntn85s12c361a", created_at: nil, updated_at: nil>
+Completed 200 OK in 1481ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-13 15:49:32 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1641ms (Views: 0.8ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/students/0108001416?P_1XXD=7245770232175261091051174939989601981657&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=34375&created_at&id&updated_at" for 127.0.0.1 at 2012-03-13 15:49:34 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"7245770232175261091051174939989601981657", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"34375", "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+{"cognome"=>"antonelli", "nome"=>"antonio", "sesso"=>"maschile", "cittadinanza"=>"italiana", "codice fiscale"=>"ntnntn85s12c361a"}
+#<Student id: nil, surname: "antonelli", name: "antonio", gender: "maschile", date_of_birth: "1985-11-12", place_of_birth: "CAVA DE' TIRRENI (SA)", citizenship: "italiana", tax_code: "ntnntn85s12c361a", created_at: nil, updated_at: nil>
+Completed 200 OK in 1302ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (1.4ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-13 15:51:25 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 2040ms (Views: 0.5ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/students/0108001416?P_1XXD=7245770232175261091052726005527069450117&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=34624&created_at&id&updated_at" for 127.0.0.1 at 2012-03-13 15:51:27 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"7245770232175261091052726005527069450117", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"34624", "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+{"cognome"=>"antonelli", "nome"=>"antonio", "sesso"=>"maschile", "cittadinanza"=>"italiana", "codice fiscale"=>"ntnntn85s12c361a"}
+#<Student id: nil, surname: "antonelli", name: "antonio", gender: "maschile", date_of_birth: "1985-11-12", place_of_birth: "CAVA DE' TIRRENI (SA)", citizenship: "italiana", tax_code: "ntnntn85s12c361a", created_at: nil, updated_at: nil>
+Completed 200 OK in 1310ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-13 15:58:12 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 14349ms (Views: 0.4ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/students/0108001416?P_1XXD=7245770232175261091023763323219738244281&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=34631&created_at&id&updated_at" for 127.0.0.1 at 2012-03-13 15:58:26 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"7245770232175261091023763323219738244281", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"34631", "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+{"cognome"=>"antonelli", "nome"=>"antonio", "sesso"=>"maschile", "cittadinanza"=>"italiana", "codice fiscale"=>"ntnntn85s12c361a"}
+#<Student id: nil, surname: "antonelli", name: "antonio", gender: "maschile", date_of_birth: "1985-11-12", place_of_birth: "CAVA DE' TIRRENI (SA)", citizenship: "italiana", tax_code: "ntnntn85s12c361a", created_at: nil, updated_at: nil>
+Completed 200 OK in 16847ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-13 16:01:49 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1519ms (Views: 0.7ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/students/0108001416?P_1XXD=7245770232175261091085946619702862362596&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=33596&created_at&id&updated_at" for 127.0.0.1 at 2012-03-13 16:01:51 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"7245770232175261091085946619702862362596", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"33596", "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+{"cognome"=>"antonelli", "nome"=>"antonio", "sesso"=>"maschile", "cittadinanza"=>"italiana", "codice fiscale"=>"ntnntn85s12c361a"}
+#<Student id: nil, surname: "antonelli", name: "antonio", gender: "maschile", date_of_birth: "1985-11-12", place_of_birth: "CAVA DE' TIRRENI (SA)", citizenship: "italiana", tax_code: "ntnntn85s12c361a", created_at: nil, updated_at: nil>
+Completed 200 OK in 1749ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-13 16:03:09 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1225ms (Views: 0.4ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/students/0108001416?P_1XXD=7245770232175261091092303492375817933719&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=33598&created_at&id&updated_at" for 127.0.0.1 at 2012-03-13 16:03:10 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"7245770232175261091092303492375817933719", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"33598", "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+{"cognome"=>"antonelli", "nome"=>"antonio", "sesso"=>"maschile", "cittadinanza"=>"italiana", "codice fiscale"=>"ntnntn85s12c361a"}
+#<Student id: nil, surname: "antonelli", name: "antonio", gender: "maschile", date_of_birth: "1985-11-12", place_of_birth: "cava de' tirreni (sa)", citizenship: "italiana", tax_code: "ntnntn85s12c361a", created_at: nil, updated_at: nil>
+Completed 200 OK in 1504ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-13 16:05:09 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 10963ms (Views: 0.4ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/students/0108001416?P_1XXD=7245770232175261091054517709632636991975&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=33600&created_at&id&updated_at" for 127.0.0.1 at 2012-03-13 16:05:20 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"7245770232175261091054517709632636991975", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"33600", "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+{"cognome"=>"antonelli", "nome"=>"antonio", "sesso"=>"maschile", "cittadinanza"=>"italiana", "codice fiscale"=>"ntnntn85s12c361a"}
+#<Student id: nil, surname: "antonelli", name: "antonio", gender: "maschile", date_of_birth: "1985-11-12", place_of_birth: "cava de' tirreni (sa)", citizenship: "italiana", tax_code: "ntnntn85s12c361a", created_at: nil, updated_at: nil>
+Completed 200 OK in 20516ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-13 16:09:22 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 11188ms (Views: 0.7ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/students/0108001416?P_1XXD=7245770232175261091076619407846913709830&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=33604&created_at&id&updated_at" for 127.0.0.1 at 2012-03-13 16:09:34 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"7245770232175261091076619407846913709830", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"33604", "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+{"cognome"=>"antonelli", "nome"=>"antonio", "sesso"=>"maschile", "cittadinanza"=>"italiana", "codice fiscale"=>"ntnntn85s12c361a"}
+#<Student id: nil, surname: "antonelli", name: "antonio", gender: "maschile", date_of_birth: "1985-11-12", place_of_birth: "cava de' tirreni (sa)", citizenship: "italiana", tax_code: "ntnntn85s12c361a", created_at: nil, updated_at: nil>
+Completed 200 OK in 11293ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-13 16:10:13 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 2349ms (Views: 0.5ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/students/0108001416?P_1XXD=7245770232175261091008047620008526221442&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=33852&created_at&id&updated_at" for 127.0.0.1 at 2012-03-13 16:10:15 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"7245770232175261091008047620008526221442", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"33852", "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+{"cognome"=>"antonelli", "nome"=>"antonio", "sesso"=>"maschile", "cittadinanza"=>"italiana", "codice fiscale"=>"ntnntn85s12c361a"}
+#<Student id: nil, surname: "antonelli", name: "antonio", gender: "maschile", date_of_birth: "1985-11-12", place_of_birth: "cava de' tirreni (sa)", citizenship: "italiana", tax_code: "ntnntn85s12c361a", created_at: nil, updated_at: nil>
+Completed 200 OK in 1382ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-13 16:17:01 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 16192ms (Views: 0.5ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/students/0108001416?P_1XXD=7245770232175261091073682460955526529735&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=33859&created_at&id&updated_at" for 127.0.0.1 at 2012-03-13 16:17:18 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"7245770232175261091073682460955526529735", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"33859", "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+{"cognome"=>"antonelli", "nome"=>"antonio", "sesso"=>"maschile", "cittadinanza"=>"italiana", "codice fiscale"=>"ntnntn85s12c361a"}
+#<Student id: nil, surname: "antonelli", name: "antonio", gender: "maschile", date_of_birth: "1985-11-12", place_of_birth: "cava de' tirreni (sa)", citizenship: "italiana", tax_code: "ntnntn85s12c361a", created_at: nil, updated_at: nil>
+Completed 200 OK in 20580ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-13 16:18:53 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 11563ms (Views: 0.5ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/students/0108001416?P_1XXD=7245770232175261091031855606118474430816&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=33860&created_at&id&updated_at" for 127.0.0.1 at 2012-03-13 16:19:05 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"7245770232175261091031855606118474430816", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"33860", "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+{"cognome"=>"antonelli", "nome"=>"antonio", "sesso"=>"maschile", "cittadinanza"=>"italiana", "codice fiscale"=>"ntnntn85s12c361a"}
+#<Student id: nil, surname: "antonelli", name: "antonio", gender: "maschile", date_of_birth: "1985-11-12", place_of_birth: "cava de' tirreni (sa)", citizenship: "italiana", tax_code: "ntnntn85s12c361a", created_at: nil, updated_at: nil>
+Completed 200 OK in 13839ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-13 16:24:40 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1406ms (Views: 0.6ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/students/0108001416?P_1XXD=7245770232175261091034734057000751282630&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=34113&created_at&id&updated_at" for 127.0.0.1 at 2012-03-13 16:24:41 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"7245770232175261091034734057000751282630", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"34113", "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+{"cognome"=>"antonelli", "nome"=>"antonio", "sesso"=>"maschile", "cittadinanza"=>"italiana", "codice fiscale"=>"ntnntn85s12c361a"}
+#<Student id: nil, surname: "antonelli", name: "antonio", gender: "maschile", date_of_birth: "1985-11-12", place_of_birth: "cava de' tirreni (sa)", citizenship: "italiana", tax_code: "ntnntn85s12c361a", created_at: nil, updated_at: nil>
+Completed 200 OK in 2203ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-13 16:31:56 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 17039ms (Views: 0.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/students/0108001416?P_1XXD=7245770232175261091080243310730068578579&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=34368&created_at&id&updated_at" for 127.0.0.1 at 2012-03-13 16:32:14 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"7245770232175261091080243310730068578579", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"34368", "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+{"cognome"=>"antonelli", "nome"=>"antonio", "sesso"=>"maschile", "cittadinanza"=>"italiana", "codice fiscale"=>"ntnntn85s12c361a"}
+#<Student id: nil, surname: "antonelli", name: "antonio", gender: "maschile", date_of_birth: "1985-11-12", place_of_birth: "cava de' tirreni (sa)", citizenship: "italiana", tax_code: "ntnntn85s12c361a", created_at: nil, updated_at: nil>
+Completed 200 OK in 14534ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-13 16:43:18 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1552ms (Views: 0.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/students/0108001416?P_1XXD=7245770232175261091043869947028883746648&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=34626&created_at&id&updated_at" for 127.0.0.1 at 2012-03-13 16:43:20 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"7245770232175261091043869947028883746648", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"34626", "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+{"cognome"=>"antonelli", "nome"=>"antonio", "sesso"=>"maschile", "cittadinanza"=>"italiana", "codice fiscale"=>"ntnntn85s12c361a"}
+#<Student id: nil, surname: "antonelli", name: "antonio", gender: "maschile", date_of_birth: "1985-11-12", place_of_birth: "cava de' tirreni (sa)", citizenship: "italiana", tax_code: "ntnntn85s12c361a", created_at: nil, updated_at: nil>
+Completed 200 OK in 1580ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-13 16:46:21 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 2485ms (Views: 0.6ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/students/0108001416?P_1XXD=7245770232175261091002460537431637581900&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=34629&created_at&id&updated_at" for 127.0.0.1 at 2012-03-13 16:46:24 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"7245770232175261091002460537431637581900", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"34629", "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+{"cognome"=>"antonelli", "nome"=>"antonio", "sesso"=>"maschile", "cittadinanza"=>"italiana", "codice fiscale"=>"ntnntn85s12c361a"}
+#<Student id: nil, surname: "antonelli", name: "antonio", gender: "maschile", date_of_birth: "1985-11-12", place_of_birth: "cava de' tirreni (sa)", citizenship: "italiana", tax_code: "ntnntn85s12c361a", created_at: nil, updated_at: nil>
+Completed 200 OK in 1679ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-13 16:47:40 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1238ms (Views: 0.5ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/students/0108001416?P_1XXD=7245770232175261091008674771835992374363&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=34630&created_at&id&updated_at" for 127.0.0.1 at 2012-03-13 16:47:41 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"7245770232175261091008674771835992374363", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"34630", "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+{"cognome"=>"antonelli", "nome"=>"antonio", "sesso"=>"maschile", "cittadinanza"=>"italiana", "codice fiscale"=>"ntnntn85s12c361a"}
+#<Student id: nil, surname: "antonelli", name: "antonio", gender: "maschile", date_of_birth: "1985-11-12", place_of_birth: "cava de' tirreni (sa)", citizenship: "italiana", tax_code: "ntnntn85s12c361a", created_at: nil, updated_at: nil>
+Completed 200 OK in 1791ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-13 17:54:04 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 500 Internal Server Error in 1ms
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-13 17:54:53 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 500 Internal Server Error in 1ms
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-13 17:57:00 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 7614ms (Views: 0.7ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/students/0108001416?P_1XXD=7245770232175261091033150172681079612117&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=35144&created_at&id&updated_at" for 127.0.0.1 at 2012-03-13 17:57:08 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"7245770232175261091033150172681079612117", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"35144", "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+{"cognome"=>"antonelli", "nome"=>"antonio", "sesso"=>"maschile", "cittadinanza"=>"italiana", "codice fiscale"=>"ntnntn85s12c361a"}
+#<Student id: nil, surname: "antonelli", name: "antonio", gender: "maschile", date_of_birth: "1985-11-12", place_of_birth: "cava de' tirreni (sa)", citizenship: "italiana", tax_code: "ntnntn85s12c361a", created_at: nil, updated_at: nil>
+Completed 200 OK in 3561ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-13 18:19:22 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1392ms (Views: 0.4ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/students/0108001416?P_1XXD&P_2XXI&P_3XXC&created_at&id&updated_at" for 127.0.0.1 at 2012-03-13 18:19:24 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>nil, "P_2XXI"=>nil, "P_3XXC"=>nil, "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+Completed 500 Internal Server Error in 2ms
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-13 18:23:26 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1435ms (Views: 0.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/students/0108001416?P_1XXD&P_2XXI&P_3XXC&created_at&id&updated_at" for 127.0.0.1 at 2012-03-13 18:23:28 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>nil, "P_2XXI"=>nil, "P_3XXC"=>nil, "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+Completed 500 Internal Server Error in 1ms
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-13 18:25:12 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 500 Internal Server Error in 739ms
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-13 18:25:43 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1975ms (Views: 0.8ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/students/0108001416?P_1XXD&P_2XXI&P_3XXC&created_at&id&updated_at" for 127.0.0.1 at 2012-03-13 18:25:45 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>nil, "P_2XXI"=>nil, "P_3XXC"=>nil, "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+Completed 500 Internal Server Error in 2ms
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-13 18:27:23 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 926ms (Views: 0.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/students/0108001416?P_1XXD&P_2XXI&P_3XXC&created_at&id&updated_at" for 127.0.0.1 at 2012-03-13 18:27:24 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>nil, "P_2XXI"=>nil, "P_3XXC"=>nil, "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+Completed 500 Internal Server Error in 1ms
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-13 18:29:40 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 500 Internal Server Error in 2295ms
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-13 18:30:25 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+{}
+#<Key:0xaf2551c>
+Completed 200 OK in 643ms (Views: 0.6ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/students/0108001416?P_1XXD&P_2XXI&P_3XXC&created_at&id&updated_at" for 127.0.0.1 at 2012-03-13 18:30:25 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>nil, "P_2XXI"=>nil, "P_3XXC"=>nil, "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+Completed 500 Internal Server Error in 2ms
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-13 18:31:50 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+{}
+test
+#<Key id: nil, P_1XXD: nil, P_2XXI: nil, P_3XXC: nil, created_at: nil, updated_at: nil>
+Completed 200 OK in 1472ms (Views: 0.4ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/students/0108001416?P_1XXD&P_2XXI&P_3XXC&created_at&id&updated_at" for 127.0.0.1 at 2012-03-13 18:31:52 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>nil, "P_2XXI"=>nil, "P_3XXC"=>nil, "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+Completed 500 Internal Server Error in 2ms
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-13 18:32:45 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta name="description" content="Servizi Web agli Studenti">
+<meta name="keywords" content="studenti, servizi web, portale studenti, immatricolazioni, università">
+<link href="/css/gweb_menu.css" rel="stylesheet" type="text/css" media="all">
+<link href="/css/gissweb.css" rel="stylesheet" type="text/css" media="all">
+<link href="/css/19_generic.css" rel="stylesheet" type="text/css" media="all">
+<link href="/css/gweb_stampa.css" rel="stylesheet" type="text/css" media="print">
+<link id="cssnoscript" rel="stylesheet" title="Stile per Javascript disabilitati. Menù esploso, abilitazione funzioni alternative." href="/css/gweb_noscript.css" type="text/css" media="screen">
+<link id="cssscript" rel="alternate stylesheet" title="Stile per Javascript Abilitati. Menù imploso, disabilitazione funzioni alternative." href="/css/gweb_jscript.css" type="text/css" media="screen">
+<link href="/css/napoli/19_generic.css" rel="stylesheet" type="text/css" media="screen">
+<script type="text/javascript" src="/js/xpmenuv22.js"></script><script type="text/javascript" src="/js/common.js"></script><title>
+Servizi Web agli Studenti
+</title>
+<script type="text/javascript" src="/js/controllo.js"></script>
+</head>
+<body id="body">
+<div class="invisibile">
+<a name="A-top"></a>
+		Metanavigazione in questa pagina:
+		<ul>
+<li><a href="#menu0">Vai al menu principale</a></li>
+			<li><a href="#menuservizio">Vai al menu di servizio</a></li>
+			<li><a href="#seiin">Vai al contenuto della pagina</a></li>
+		</ul>
+</div>
+	<p class="invisibile"><br></p>
+<div id="esterno">
+<div id="contenitore">
+<div id="header-tot">
+<div id="header-left"></div>
+<div id="header-right"></div>
+<div id="header">
+<div id="header-img" title="Logo rappresententativo dell'Servizi Informatici Studenti">
+</div>
+<div id="titolouni">
+<h1 id="titolotestata">Servizi Informatici Studenti</h1>
+</div>
+</div>
+</div>
+<div id="tools-tot">
+<div id="tools-left"></div>
+<div id="tools-right"></div>
+<div id="tools">
+</div>
+</div>
+<div id="ausiliario">
+<div id="colonna-1">
+<div id="boxinfo" class="boxinfo">
+<div id="titleboxinfo" class="titleboxinfo"><span>Menu di servizio</span></div>
+<div id="testoinfo"> <div id="menuServ" class="menuServ"><ul>
+<li><a class="linkGoHome" title="collegamento alla pagina iniziale dei Servizi Studenti" href="gissweb.home?p_tipoutente=&amp;p_cod_lingua=004">Vai alla Home Page dei servizi on line</a></li>
+<li><a class="linkLogin" title="Email Studenti" href="http://mail.studenti.uniparthenope.it" onclick="window.open(this.href);return false">Email Studenti</a></li>
+<li><a class="linkLogin" title="Job Placement" href="http://www.placementparthenope.it" onclick="window.open(this.href);return false">Job Placement</a></li>
+<li><a class="linkLogin" title="Orientamento e Tutorato" href="http://orientamento.uniparthenope.it" onclick="window.open(this.href);return false">Orientamento e Tutorato</a></li>
+<li><a class="linkPrint" title="Stampa la pagina" href="javascript:window.print()">Stampa questa pagina</a></li>
+<li><a class="linkLogin" title="Assistenza FAQ" href="gwebfaq.gwebfaq">Domande Frequenti</a></li>
+</ul></div>
+</div>
+</div>
+</div>
+<div id="colonna-2">
+<div id="colonna-22">
+<div id="pathtot">
+<div id="path"><p>Sei in: Pagina di Errore</p></div>
+</div>
+<div class="Info">
+<br><p class="pinfo">Utente NON abilitato</p>
+<br><form id="formback" action="#">
+<p>
+<input tabindex="1" id="backbutton" name="backbutton" value="Torna Indietro" onclick="history.back()" class="btnform" type="button"><script type="text/javascript">document.getElementById("backbutton").focus;</script></p>
+</form>
+<br>
+</div>
+</div>
+</div>
+<p class="invisibile">[ <a href="#A-top">Torna all'inizio della pagina</a> ]</p>
+<p class="invisibile"><br></p>
+<div id="footer" class="footer">
+Servizi Web dell'Ateneo - per la segnalazione di soli problemi tecnici <a href="mailto:serviziweb@uniparthenope.it">serviziweb@uniparthenope.it</a>
+<span id="revision"> [Data ultima revisione: 12/03/2012]</span>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript">setActiveStyleSheet("cssscript", "true");</script><script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-11435399-9");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>
+
+{}
+test
+#<Key id: nil, P_1XXD: nil, P_2XXI: nil, P_3XXC: nil, created_at: nil, updated_at: nil>
+Completed 200 OK in 802ms (Views: 0.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/students/0108001416?P_1XXD&P_2XXI&P_3XXC&created_at&id&updated_at" for 127.0.0.1 at 2012-03-13 18:32:46 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>nil, "P_2XXI"=>nil, "P_3XXC"=>nil, "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+Completed 500 Internal Server Error in 2ms
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-13 18:33:51 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 500 Internal Server Error in 1ms
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-13 18:34:37 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+0108001416
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta name="description" content="Servizi Web agli Studenti">
+<meta name="keywords" content="studenti, servizi web, portale studenti, immatricolazioni, università">
+<link href="/css/gweb_menu.css" rel="stylesheet" type="text/css" media="all">
+<link href="/css/gissweb.css" rel="stylesheet" type="text/css" media="all">
+<link href="/css/19_generic.css" rel="stylesheet" type="text/css" media="all">
+<link href="/css/gweb_stampa.css" rel="stylesheet" type="text/css" media="print">
+<link id="cssnoscript" rel="stylesheet" title="Stile per Javascript disabilitati. Menù esploso, abilitazione funzioni alternative." href="/css/gweb_noscript.css" type="text/css" media="screen">
+<link id="cssscript" rel="alternate stylesheet" title="Stile per Javascript Abilitati. Menù imploso, disabilitazione funzioni alternative." href="/css/gweb_jscript.css" type="text/css" media="screen">
+<link href="/css/napoli/19_generic.css" rel="stylesheet" type="text/css" media="screen">
+<script type="text/javascript" src="/js/xpmenuv22.js"></script><script type="text/javascript" src="/js/common.js"></script><title>
+Servizi Web agli Studenti
+</title>
+<script type="text/javascript" src="/js/controllo.js"></script>
+</head>
+<body id="body">
+<div class="invisibile">
+<a name="A-top"></a>
+		Metanavigazione in questa pagina:
+		<ul>
+<li><a href="#menu0">Vai al menu principale</a></li>
+			<li><a href="#menuservizio">Vai al menu di servizio</a></li>
+			<li><a href="#seiin">Vai al contenuto della pagina</a></li>
+		</ul>
+</div>
+	<p class="invisibile"><br></p>
+<div id="esterno">
+<div id="contenitore">
+<div id="header-tot">
+<div id="header-left"></div>
+<div id="header-right"></div>
+<div id="header">
+<div id="header-img" title="Logo rappresententativo dell'Servizi Informatici Studenti">
+</div>
+<div id="titolouni">
+<h1 id="titolotestata">Servizi Informatici Studenti</h1>
+</div>
+</div>
+</div>
+<div id="tools-tot">
+<div id="tools-left"></div>
+<div id="tools-right"></div>
+<div id="tools">
+</div>
+</div>
+<div id="ausiliario">
+<div id="colonna-1">
+<div id="boxinfo" class="boxinfo">
+<div id="titleboxinfo" class="titleboxinfo"><span>Menu di servizio</span></div>
+<div id="testoinfo"> <div id="menuServ" class="menuServ"><ul>
+<li><a class="linkGoHome" title="collegamento alla pagina iniziale dei Servizi Studenti" href="gissweb.home?p_tipoutente=&amp;p_cod_lingua=004">Vai alla Home Page dei servizi on line</a></li>
+<li><a class="linkLogin" title="Email Studenti" href="http://mail.studenti.uniparthenope.it" onclick="window.open(this.href);return false">Email Studenti</a></li>
+<li><a class="linkLogin" title="Job Placement" href="http://www.placementparthenope.it" onclick="window.open(this.href);return false">Job Placement</a></li>
+<li><a class="linkLogin" title="Orientamento e Tutorato" href="http://orientamento.uniparthenope.it" onclick="window.open(this.href);return false">Orientamento e Tutorato</a></li>
+<li><a class="linkPrint" title="Stampa la pagina" href="javascript:window.print()">Stampa questa pagina</a></li>
+<li><a class="linkLogin" title="Assistenza FAQ" href="gwebfaq.gwebfaq">Domande Frequenti</a></li>
+</ul></div>
+</div>
+</div>
+</div>
+<div id="colonna-2">
+<div id="colonna-22">
+<div id="pathtot">
+<div id="path"><p>Sei in: Pagina di Errore</p></div>
+</div>
+<div class="Info">
+<br><p class="pinfo">Utente NON abilitato</p>
+<br><form id="formback" action="#">
+<p>
+<input tabindex="1" id="backbutton" name="backbutton" value="Torna Indietro" onclick="history.back()" class="btnform" type="button"><script type="text/javascript">document.getElementById("backbutton").focus;</script></p>
+</form>
+<br>
+</div>
+</div>
+</div>
+<p class="invisibile">[ <a href="#A-top">Torna all'inizio della pagina</a> ]</p>
+<p class="invisibile"><br></p>
+<div id="footer" class="footer">
+Servizi Web dell'Ateneo - per la segnalazione di soli problemi tecnici <a href="mailto:serviziweb@uniparthenope.it">serviziweb@uniparthenope.it</a>
+<span id="revision"> [Data ultima revisione: 12/03/2012]</span>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript">setActiveStyleSheet("cssscript", "true");</script><script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-11435399-9");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>
+
+{}
+test
+#<Key id: nil, P_1XXD: nil, P_2XXI: nil, P_3XXC: nil, created_at: nil, updated_at: nil>
+Completed 200 OK in 927ms (Views: 0.4ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/students/0108001416?P_1XXD&P_2XXI&P_3XXC&created_at&id&updated_at" for 127.0.0.1 at 2012-03-13 18:34:38 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>nil, "P_2XXI"=>nil, "P_3XXC"=>nil, "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+Completed 500 Internal Server Error in 2ms
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-13 18:35:39 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+0108001416
+x5Zu3Yk_1
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta name="description" content="Servizi Web agli Studenti">
+<meta name="keywords" content="studenti, servizi web, portale studenti, immatricolazioni, università">
+<link href="/css/gweb_menu.css" rel="stylesheet" type="text/css" media="all">
+<link href="/css/gissweb.css" rel="stylesheet" type="text/css" media="all">
+<link href="/css/19_generic.css" rel="stylesheet" type="text/css" media="all">
+<link href="/css/gweb_stampa.css" rel="stylesheet" type="text/css" media="print">
+<link id="cssnoscript" rel="stylesheet" title="Stile per Javascript disabilitati. Menù esploso, abilitazione funzioni alternative." href="/css/gweb_noscript.css" type="text/css" media="screen">
+<link id="cssscript" rel="alternate stylesheet" title="Stile per Javascript Abilitati. Menù imploso, disabilitazione funzioni alternative." href="/css/gweb_jscript.css" type="text/css" media="screen">
+<link href="/css/napoli/19_generic.css" rel="stylesheet" type="text/css" media="screen">
+<script type="text/javascript" src="/js/xpmenuv22.js"></script><script type="text/javascript" src="/js/common.js"></script><title>
+Servizi Web agli Studenti
+</title>
+<script type="text/javascript" src="/js/controllo.js"></script>
+</head>
+<body id="body">
+<div class="invisibile">
+<a name="A-top"></a>
+		Metanavigazione in questa pagina:
+		<ul>
+<li><a href="#menu0">Vai al menu principale</a></li>
+			<li><a href="#menuservizio">Vai al menu di servizio</a></li>
+			<li><a href="#seiin">Vai al contenuto della pagina</a></li>
+		</ul>
+</div>
+	<p class="invisibile"><br></p>
+<div id="esterno">
+<div id="contenitore">
+<div id="header-tot">
+<div id="header-left"></div>
+<div id="header-right"></div>
+<div id="header">
+<div id="header-img" title="Logo rappresententativo dell'Servizi Informatici Studenti">
+</div>
+<div id="titolouni">
+<h1 id="titolotestata">Servizi Informatici Studenti</h1>
+</div>
+</div>
+</div>
+<div id="tools-tot">
+<div id="tools-left"></div>
+<div id="tools-right"></div>
+<div id="tools">
+</div>
+</div>
+<div id="ausiliario">
+<div id="colonna-1">
+<div id="boxinfo" class="boxinfo">
+<div id="titleboxinfo" class="titleboxinfo"><span>Menu di servizio</span></div>
+<div id="testoinfo"> <div id="menuServ" class="menuServ"><ul>
+<li><a class="linkGoHome" title="collegamento alla pagina iniziale dei Servizi Studenti" href="gissweb.home?p_tipoutente=&amp;p_cod_lingua=004">Vai alla Home Page dei servizi on line</a></li>
+<li><a class="linkLogin" title="Email Studenti" href="http://mail.studenti.uniparthenope.it" onclick="window.open(this.href);return false">Email Studenti</a></li>
+<li><a class="linkLogin" title="Job Placement" href="http://www.placementparthenope.it" onclick="window.open(this.href);return false">Job Placement</a></li>
+<li><a class="linkLogin" title="Orientamento e Tutorato" href="http://orientamento.uniparthenope.it" onclick="window.open(this.href);return false">Orientamento e Tutorato</a></li>
+<li><a class="linkPrint" title="Stampa la pagina" href="javascript:window.print()">Stampa questa pagina</a></li>
+<li><a class="linkLogin" title="Assistenza FAQ" href="gwebfaq.gwebfaq">Domande Frequenti</a></li>
+</ul></div>
+</div>
+</div>
+</div>
+<div id="colonna-2">
+<div id="colonna-22">
+<div id="pathtot">
+<div id="path"><p>Sei in: Pagina di Errore</p></div>
+</div>
+<div class="Info">
+<br><p class="pinfo">Utente NON abilitato.</p>
+<br><form id="formback" action="#">
+<p>
+<input tabindex="1" id="backbutton" name="backbutton" value="Torna Indietro" onclick="history.back()" class="btnform" type="button"><script type="text/javascript">document.getElementById("backbutton").focus;</script></p>
+</form>
+<br>
+</div>
+</div>
+</div>
+<p class="invisibile">[ <a href="#A-top">Torna all'inizio della pagina</a> ]</p>
+<p class="invisibile"><br></p>
+<div id="footer" class="footer">
+Servizi Web dell'Ateneo - per la segnalazione di soli problemi tecnici <a href="mailto:serviziweb@uniparthenope.it">serviziweb@uniparthenope.it</a>
+<span id="revision"> [Data ultima revisione: 12/03/2012]</span>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript">setActiveStyleSheet("cssscript", "true");</script><script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-11435399-9");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>
+
+{}
+test
+#<Key id: nil, P_1XXD: nil, P_2XXI: nil, P_3XXC: nil, created_at: nil, updated_at: nil>
+Completed 200 OK in 981ms (Views: 0.4ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/students/0108001416?P_1XXD&P_2XXI&P_3XXC&created_at&id&updated_at" for 127.0.0.1 at 2012-03-13 18:35:40 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>nil, "P_2XXI"=>nil, "P_3XXC"=>nil, "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+Completed 500 Internal Server Error in 2ms
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-13 18:37:16 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+test
+0108001416
+x5Zu3Yk_1
+{}
+#<Key id: nil, P_1XXD: nil, P_2XXI: nil, P_3XXC: nil, created_at: nil, updated_at: nil>
+Completed 200 OK in 2087ms (Views: 0.5ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/students/0108001416?P_1XXD&P_2XXI&P_3XXC&created_at&id&updated_at" for 127.0.0.1 at 2012-03-13 18:37:18 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>nil, "P_2XXI"=>nil, "P_3XXC"=>nil, "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+Completed 500 Internal Server Error in 2ms
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-13 18:43:11 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+test
+0108001416
+x5Zu3Yk_1
+{"P_1XXD"=>"7245770232175261091020122877302124173883", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"35140"}
+#<Key id: nil, P_1XXD: "7245770232175261091020122877302124173883", P_2XXI: "8164864248189188986636075745398284037334", P_3XXC: "35140", created_at: nil, updated_at: nil>
+Completed 200 OK in 1507ms (Views: 0.6ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/students/0108001416?P_1XXD=7245770232175261091020122877302124173883&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=35140&created_at&id&updated_at" for 127.0.0.1 at 2012-03-13 18:43:13 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"7245770232175261091020122877302124173883", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"35140", "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+Completed 500 Internal Server Error in 2ms
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-13 18:49:31 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+#<Key id: nil, P_1XXD: "7245770232175261091091451687407995328600", P_2XXI: "8164864248189188986636075745398284037334", P_3XXC: "35146", created_at: nil, updated_at: nil>
+Completed 200 OK in 2822ms (Views: 0.5ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/students/0108001416?P_1XXD=7245770232175261091091451687407995328600&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=35146&created_at&id&updated_at" for 127.0.0.1 at 2012-03-13 18:49:34 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"7245770232175261091091451687407995328600", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"35146", "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+Completed 500 Internal Server Error in 2ms
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-13 18:58:41 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+#<Key id: nil, P_1XXD: "7245770232175261091092162040244766879720", P_2XXI: "8164864248189188986636075745398284037334", P_3XXC: "35402", created_at: nil, updated_at: nil>
+Completed 200 OK in 1392ms (Views: 0.6ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/students/0108001416?P_1XXD=7245770232175261091092162040244766879720&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=35402&created_at&id&updated_at" for 127.0.0.1 at 2012-03-13 18:58:43 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"7245770232175261091092162040244766879720", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"35402", "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+#<Student id: nil, surname: "antonelli", name: "antonio", gender: "maschile", date_of_birth: "1985-11-12", place_of_birth: "cava de' tirreni (sa)", citizenship: "italiana", tax_code: "ntnntn85s12c361a", created_at: nil, updated_at: nil>
+Completed 200 OK in 1633ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-03-13 19:02:16 +0100
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 7321ms (Views: 0.5ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/students/0108001416?P_1XXD=7245770232175261091054321162062795663738&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=34368&created_at&id&updated_at" for 127.0.0.1 at 2012-03-13 19:02:23 +0100
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"7245770232175261091054321162062795663738", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"34368", "created_at"=>nil, "id"=>"0108001416", "updated_at"=>nil, "student"=>{"id"=>"0108001416", "created_at"=>nil, "updated_at"=>nil}}
+Completed 200 OK in 2676ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
