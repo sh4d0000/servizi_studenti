@@ -1,16 +1,13 @@
-require 'httparty'
-
 class StudentsController < ApplicationController
+  respond_to :json, :xml
 
   # GET /students/1
   def show
 
-    key = Key.new( {:P_1XXD => params["P_1XXD"], :P_2XXI => params["P_2XXI"], :P_3XXC => params["P_3XXC"] } )
+    key = Key.new( {P_1XXD: params[:P_1XXD], P_2XXI: params[:P_2XXI], P_3XXC: params[:P_3XXC] } )
     student = StudentsPortalService.get_student( key )
 
-    respond_to do |format|
-      format.json { render json: student }
-    end
+    respond_with student
   end
 
   # GET /students/:id/key
@@ -18,8 +15,6 @@ class StudentsController < ApplicationController
 
     key = AccessKeyService.retrieve params[:id], params[:password] 
 
-    respond_to do |format|
-      format.json { render json: key }
-    end
+    respond_with key
   end
 end

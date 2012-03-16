@@ -4,14 +4,13 @@ Given /^I am a valid API user$/ do
   authorize(@user.email, @user.password)
 end
 
-Given /^I send and accept XML$/ do
-  header 'Accept', 'text/xml'
-  header 'Content-Type', 'text/xml'
-end
+Given /^I send and accept ([^\"]*)$/ do | format |
+  @format = format.downcase.to_sym
 
-Given /^I send and accept JSON$/ do
-  header 'Accept', 'application/json'
-  header 'Content-Type', 'application/json'
+@content_type  = "application/#{@format.to_s}"
+header 'Accept', @content_type
+header 'Content-Type', @content_type
+
 end
 
 When /^I send a GET request for "([^\"]*)"$/ do |path|
@@ -43,3 +42,20 @@ Then /^the JSON response should be an array with (\d+) "([^\"]*)" elements$/ do 
   page = JSON.parse(last_response.body)
   page.map { |d| d[name] }.length.should == number_of_children.to_i
 end
+
+Given /^I am logged in as ([^"]*) with pass ([^"]*)$/ do |username, pass|
+
+  header "Accept", "application/json"
+  header "Content-Type", "application/json"
+  get key_url(id: username), {password: pass} 
+
+  @key = JSON.parse( last_response.body )["key"]
+
+end
+
+When /^I send a GET request for "([^"]*)" with the user's key$/ do | path |
+  get path, @key
+end
+
+
+
