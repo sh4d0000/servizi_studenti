@@ -1,4 +1,4 @@
-Then /^the response should have the following informations:$/ do | table |
+Then /^the response should have the following informations about the student:$/ do | table |
 
   last_response.content_type.should  have_content @content_type 
 
