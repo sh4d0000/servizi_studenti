@@ -8,7 +8,6 @@ gem 'rails', '3.2.1'
 gem 'mysql2'
 gem 'therubyracer'
 gem 'nokogiri'
-gem 'rest-open-uri'
 gem 'httparty'
 
 group :development, :test do

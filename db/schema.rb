@@ -11,7 +11,31 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120316151528) do
+ActiveRecord::Schema.define(:version => 20120318234746) do
+
+  create_table "exams", :force => true do |t|
+    t.string   "name"
+    t.date     "date"
+    t.string   "code"
+    t.string   "outcome"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "isees", :force => true do |t|
+    t.string   "student_code"
+    t.string   "name"
+    t.string   "surname"
+    t.date     "date_of_birth"
+    t.string   "place_of_birth"
+    t.string   "tax_code"
+    t.float    "value_scale_equivalence"
+    t.float    "ise"
+    t.float    "isee"
+    t.datetime "created_at",              :null => false
+    t.datetime "updated_at",              :null => false
+    t.string   "caf_protocol_number"
+  end
 
   create_table "keys", :force => true do |t|
     t.string   "P_1XXD"

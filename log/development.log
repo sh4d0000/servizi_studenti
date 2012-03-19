@@ -484,3 +484,143 @@ Migrating to RemoveTeachingsFromStudyPlan (20120316151528)
   [1m[36m (66.6ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120316135918')[0m
   [1m[35m (66.6ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120316135742')
   [1m[36m (55.5ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120311141015')[0m
+  [1m[36m (0.5ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateStudents (20120311141015)
+Migrating to CreateKeys (20120312102858)
+Migrating to CreateTeachings (20120316135742)
+Migrating to CreateStudyPlans (20120316135918)
+Migrating to RemoveTeachingsFromStudyPlan (20120316151528)
+Migrating to CreateExams (20120317122933)
+  [1m[35m (127.7ms)[0m  CREATE TABLE `exams` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `teaching` varchar(255), `date` date, `code` varchar(255), `outcome` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (56.8ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20120317122933')[0m
+  [1m[35m (0.3ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations` 
+  [1m[36m (0.2ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35m (240.4ms)[0m  DROP DATABASE IF EXISTS `servizi_studenti_test`
+  [1m[36m (0.4ms)[0m  [1mCREATE DATABASE `servizi_studenti_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`[0m
+  [1m[35m (117.9ms)[0m  CREATE TABLE `exams` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `teaching` varchar(255), `date` date, `code` varchar(255), `outcome` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (98.6ms)[0m  [1mCREATE TABLE `keys` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `P_1XXD` varchar(255), `P_2XXI` varchar(255), `P_3XXC` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (109.8ms)[0m  CREATE TABLE `students` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `surname` varchar(255), `name` varchar(255), `gender` varchar(255), `date_of_birth` date, `place_of_birth` varchar(255), `citizenship` varchar(255), `tax_code` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (98.4ms)[0m  [1mCREATE TABLE `study_plans` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (98.6ms)[0m  CREATE TABLE `teachings` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `program_year` int(11), `name` varchar(255), `outcome` varchar(255), `cfu` int(11), `taf` varchar(255), `ssd` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (99.2ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (225.6ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)
+  [1m[36m (0.4ms)[0m  [1mSELECT version FROM `schema_migrations`[0m
+  [1m[35m (42.2ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120317122933')
+  [1m[36m (44.5ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120312102858')[0m
+  [1m[35m (44.2ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120316135918')
+  [1m[36m (44.5ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120316135742')[0m
+  [1m[35m (44.4ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120316151528')
+  [1m[36m (44.4ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120311141015')[0m
+  [1m[36m (0.2ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35m (0.3ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations` 
+  [1m[36m (0.1ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateStudents (20120311141015)
+Migrating to CreateKeys (20120312102858)
+Migrating to CreateTeachings (20120316135742)
+Migrating to CreateStudyPlans (20120316135918)
+Migrating to RemoveTeachingsFromStudyPlan (20120316151528)
+Migrating to CreateExams (20120317131326)
+  [1m[35m (0.5ms)[0m  CREATE TABLE `exams` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `date` date, `code` varchar(255), `outcome` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+Mysql2::Error: Table 'exams' already exists: CREATE TABLE `exams` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `date` date, `code` varchar(255), `outcome` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (0.2ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35m (0.2ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations` 
+  [1m[36m (0.2ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateStudents (20120311141015)
+Migrating to CreateKeys (20120312102858)
+Migrating to CreateTeachings (20120316135742)
+Migrating to CreateStudyPlans (20120316135918)
+Migrating to RemoveTeachingsFromStudyPlan (20120316151528)
+Migrating to CreateExams (20120317133410)
+  [1m[35m (188.8ms)[0m  CREATE TABLE `exams` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `date` date, `code` varchar(255), `outcome` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (54.7ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20120317133410')[0m
+  [1m[35m (0.2ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations` 
+  [1m[36m (0.2ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35m (327.4ms)[0m  DROP DATABASE IF EXISTS `servizi_studenti_test`
+  [1m[36m (0.3ms)[0m  [1mCREATE DATABASE `servizi_studenti_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`[0m
+  [1m[35m (126.6ms)[0m  CREATE TABLE `exams` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `date` date, `code` varchar(255), `outcome` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (101.0ms)[0m  [1mCREATE TABLE `keys` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `P_1XXD` varchar(255), `P_2XXI` varchar(255), `P_3XXC` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (98.1ms)[0m  CREATE TABLE `students` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `surname` varchar(255), `name` varchar(255), `gender` varchar(255), `date_of_birth` date, `place_of_birth` varchar(255), `citizenship` varchar(255), `tax_code` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (577.1ms)[0m  [1mCREATE TABLE `study_plans` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (98.5ms)[0m  CREATE TABLE `teachings` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `program_year` int(11), `name` varchar(255), `outcome` varchar(255), `cfu` int(11), `taf` varchar(255), `ssd` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (99.7ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (225.3ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)
+  [1m[36m (0.3ms)[0m  [1mSELECT version FROM `schema_migrations`[0m
+  [1m[35m (42.6ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120317133410')
+  [1m[36m (44.4ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120312102858')[0m
+  [1m[35m (44.6ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120316135918')
+  [1m[36m (44.1ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120316135742')[0m
+  [1m[35m (44.4ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120316151528')
+  [1m[36m (44.3ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120311141015')[0m
+  [1m[36m (55.4ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateStudents (20120311141015)
+Migrating to CreateKeys (20120312102858)
+Migrating to CreateTeachings (20120316135742)
+Migrating to CreateStudyPlans (20120316135918)
+Migrating to RemoveTeachingsFromStudyPlan (20120316151528)
+Migrating to CreateExams (20120317133410)
+Migrating to CreateIsees (20120318233947)
+  [1m[35m (303.7ms)[0m  CREATE TABLE `isees` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `student_code` varchar(255), `name` varchar(255), `surname` varchar(255), `date_of_birth` date, `place_of_birth` varchar(255), `tax_code` varchar(255), `value_scale_equivalence` float, `ise` float, `isee` float, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (85.0ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20120318233947')[0m
+  [1m[35m (0.3ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations` 
+  [1m[36m (0.2ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35m (634.6ms)[0m  DROP DATABASE IF EXISTS `servizi_studenti_test`
+  [1m[36m (0.3ms)[0m  [1mCREATE DATABASE `servizi_studenti_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`[0m
+  [1m[35m (156.5ms)[0m  CREATE TABLE `exams` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `date` date, `code` varchar(255), `outcome` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (97.1ms)[0m  [1mCREATE TABLE `isees` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `student_code` varchar(255), `name` varchar(255), `surname` varchar(255), `date_of_birth` date, `place_of_birth` varchar(255), `tax_code` varchar(255), `value_scale_equivalence` float, `ise` float, `isee` float, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (98.5ms)[0m  CREATE TABLE `keys` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `P_1XXD` varchar(255), `P_2XXI` varchar(255), `P_3XXC` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (99.3ms)[0m  [1mCREATE TABLE `students` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `surname` varchar(255), `name` varchar(255), `gender` varchar(255), `date_of_birth` date, `place_of_birth` varchar(255), `citizenship` varchar(255), `tax_code` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (100.5ms)[0m  CREATE TABLE `study_plans` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (87.9ms)[0m  [1mCREATE TABLE `teachings` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `program_year` int(11), `name` varchar(255), `outcome` varchar(255), `cfu` int(11), `taf` varchar(255), `ssd` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (88.3ms)[0m  CREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB
+  [1m[36m (245.7ms)[0m  [1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [1m[35m (0.5ms)[0m  SELECT version FROM `schema_migrations`
+  [1m[36m (53.4ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120318233947')[0m
+  [1m[35m (44.5ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120312102858')
+  [1m[36m (44.5ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120316135918')[0m
+  [1m[35m (33.3ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120317133410')
+  [1m[36m (44.3ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120316135742')[0m
+  [1m[35m (44.3ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120316151528')
+  [1m[36m (44.5ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120311141015')[0m
+  [1m[36m (0.2ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateStudents (20120311141015)
+Migrating to CreateKeys (20120312102858)
+Migrating to CreateTeachings (20120316135742)
+Migrating to CreateStudyPlans (20120316135918)
+Migrating to RemoveTeachingsFromStudyPlan (20120316151528)
+Migrating to CreateExams (20120317133410)
+Migrating to CreateIsees (20120318233947)
+Migrating to AddCafProtocolNumberToIsee (20120318234746)
+  [1m[35m (0.4ms)[0m  ALTER TABLE `isee` ADD `caf_protocol_number` varchar(255)
+Mysql2::Error: Table 'servizi_studenti_development.isee' doesn't exist: ALTER TABLE `isee` ADD `caf_protocol_number` varchar(255)
+  [1m[36m (0.2ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateStudents (20120311141015)
+Migrating to CreateKeys (20120312102858)
+Migrating to CreateTeachings (20120316135742)
+Migrating to CreateStudyPlans (20120316135918)
+Migrating to RemoveTeachingsFromStudyPlan (20120316151528)
+Migrating to CreateExams (20120317133410)
+Migrating to CreateIsees (20120318233947)
+Migrating to AddCafProtocolNumberToIsee (20120318234746)
+  [1m[35m (341.9ms)[0m  ALTER TABLE `isees` ADD `caf_protocol_number` varchar(255)
+  [1m[36m (54.8ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20120318234746')[0m
+  [1m[35m (0.3ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations` 
+  [1m[36m (0.2ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35m (552.8ms)[0m  DROP DATABASE IF EXISTS `servizi_studenti_test`
+  [1m[36m (0.3ms)[0m  [1mCREATE DATABASE `servizi_studenti_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`[0m
+  [1m[35m (115.9ms)[0m  CREATE TABLE `exams` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `date` date, `code` varchar(255), `outcome` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (98.1ms)[0m  [1mCREATE TABLE `isees` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `student_code` varchar(255), `name` varchar(255), `surname` varchar(255), `date_of_birth` date, `place_of_birth` varchar(255), `tax_code` varchar(255), `value_scale_equivalence` float, `ise` float, `isee` float, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL, `caf_protocol_number` varchar(255)) ENGINE=InnoDB[0m
+  [1m[35m (187.6ms)[0m  CREATE TABLE `keys` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `P_1XXD` varchar(255), `P_2XXI` varchar(255), `P_3XXC` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (211.0ms)[0m  [1mCREATE TABLE `students` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `surname` varchar(255), `name` varchar(255), `gender` varchar(255), `date_of_birth` date, `place_of_birth` varchar(255), `citizenship` varchar(255), `tax_code` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (143.3ms)[0m  CREATE TABLE `study_plans` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (99.6ms)[0m  [1mCREATE TABLE `teachings` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `program_year` int(11), `name` varchar(255), `outcome` varchar(255), `cfu` int(11), `taf` varchar(255), `ssd` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (99.4ms)[0m  CREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB
+  [1m[36m (236.8ms)[0m  [1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [1m[35m (0.4ms)[0m  SELECT version FROM `schema_migrations`
+  [1m[36m (42.0ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120318234746')[0m
+  [1m[35m (44.5ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120312102858')
+  [1m[36m (44.4ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120316135918')[0m
+  [1m[35m (44.3ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120317133410')
+  [1m[36m (44.6ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120316135742')[0m
+  [1m[35m (44.4ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120316151528')
+  [1m[36m (44.4ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120311141015')[0m
+  [1m[35m (44.6ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120318233947')
