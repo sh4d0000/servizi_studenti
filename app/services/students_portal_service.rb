@@ -1,10 +1,13 @@
 class StudentsPortalService
 
+  BASE = "http://www.servizi.uniparthenope.it/self/"
   MENU_URL = "http://www.servizi.uniparthenope.it/self/gissweb.welcome"
   PERSONAL_DATA_URL = "http://www.servizi.uniparthenope.it/self/SSGISSWU.SSGISSWU"
   STUDY_PLAN_URL = "http://www.servizi.uniparthenope.it/self/SSGISSW2.SSGISSW2"
   PASSED_EXAMS_URL = "http://www.servizi.uniparthenope.it/self/SSGISSW5.SSGISSW5"
   ISEE_URL = "http://www.servizi.uniparthenope.it/self/SSIIOLKH.SSIIOLKH"
+  PAYMENTS_MADE_URL = "http://www.servizi.uniparthenope.it/self/SSGISSW6.SSGISSW6"
+  PAYMENTS_IN_DEBT_URL = "http://www.servizi.uniparthenope.it/self/SSGISSW7.SSGISSW7"
 
   def self.get_student( key )
 
@@ -140,5 +143,115 @@ class StudentsPortalService
       caf_protocol_number:     data["numero di protocollo caf"]
     })
 
+  end
+
+
+  def self.get_payments( key, status )
+
+    doc = Nokogiri::HTML( HTTParty.get( MENU_URL, query: { P_1XXD: key.P_1XXD, P_2XXI: key.P_2XXI, P_3XXC: key.P_3XXC }))
+
+    if status == :made
+      link = "Effettuati"
+      url = PAYMENTS_MADE_URL
+    elsif status == :in_debt
+      link = "In Debito"
+      url = PAYMENTS_IN_DEBT_URL
+    end
+
+    payments_href = doc.css("a:contains('#{link}')").attribute("href").value
+    query_params =  Rack::Utils.parse_query URI( payments_href ).query
+
+    doc = Nokogiri::HTML( HTTParty.get( url, query: { P_1XXD: key.P_1XXD, P_2XXI: key.P_2XXI, P_3XXC: query_params["P_3XXC"] }))
+
+    payments = []
+
+    doc.css("table tr").each do | row |
+
+      tds = row.css("td")
+
+      if not tds.empty?
+        payment = {}
+        payment[:academic_year] = tds[0].text.strip.downcase
+        payment[:code]          = tds[1].text.strip.downcase
+        payment[:date]          = tds[4].text.strip.downcase
+        payment[:description]   = tds[2].text.strip.downcase
+        payment[:amount]        = tds[3].text.strip.downcase
+        payment[:status]        = status
+
+        payments << Payment.new( payment )
+      end
+
+    end
+
+    payments
+
+  end
+
+  def self.get_exam_sessions( key )
+
+    doc = Nokogiri::HTML( HTTParty.get( MENU_URL, query: { P_1XXD: key.P_1XXD, P_2XXI: key.P_2XXI, P_3XXC: key.P_3XXC }))
+
+    href = doc.css("a:contains('Prenotazioni')").attribute("href").value
+    query_params =  Rack::Utils.parse_query URI( href ).query
+
+    doc = Nokogiri::HTML( HTTParty.get( BASE + href, query: { P_1XXD: key.P_1XXD, P_2XXI: key.P_2XXI, P_3XXC: query_params["P_3XXC"] }))
+    href = doc.css("a:contains('Cerca')").attribute("href").value
+
+    doc = Nokogiri::HTML( HTTParty.get( BASE + href, query: { P_1XXD: key.P_1XXD, P_2XXI: key.P_2XXI, P_3XXC: query_params["P_3XXC"] }))
+    href = doc.css("a:contains('Qui')").attribute("href").value
+
+    links = []
+    i = 1
+    doc = Nokogiri::HTML( HTTParty.get( BASE + href, query: { P_1XXD: key.P_1XXD, P_2XXI: key.P_2XXI, P_3XXC: query_params["P_3XXC"], p_page_num: i }))
+
+    while doc.css("table tr td").size != 0
+
+      doc.css("table tr td > a").each do | link |
+        links << link.attribute("href")
+      end
+      
+      i += 1
+      puts i
+      doc = Nokogiri::HTML( HTTParty.get( BASE + href, query: { P_1XXD: key.P_1XXD, P_2XXI: key.P_2XXI, P_3XXC: query_params["P_3XXC"], p_page_num: i }))
+    end
+
+    puts "Link n:"
+    puts links.size 
+
+    sessions = []
+
+    links.each do | link |
+      
+      details_doc = Nokogiri::HTML( HTTParty.get( BASE + link, query: { P_1XXD: key.P_1XXD, P_2XXI: key.P_2XXI, P_3XXC: query_params["P_3XXC"] }))
+
+      exam_session = {}
+
+      exam_session[:teaching] = details_doc.css("h3:contains('Insegnamento')").text.downcase.split("insegnamento di")[1].strip
+      exam_session[:course] = details_doc.css("li:contains('Corso di Laurea') span").text.downcase.strip
+      exam_session[:address] = details_doc.css("li:contains('Indirizzo') span").text.downcase.strip
+      exam_session[:cfu] = details_doc.css("li:contains('CFU') span").text.downcase.strip
+      exam_session[:ssd] = details_doc.css("li:contains('SSD') span").text.downcase.strip
+
+      details_doc.css("ol > li").each do | fragment |
+
+        date_time = fragment.css("span")[0].text.downcase.strip
+        exam_session[:date] = date_time[12..21].strip
+        exam_session[:time] = date_time[43..47].strip
+
+        range_text = fragment.css("span")[1].text.downcase.split(" ")
+        exam_session[:prenotation_range] = range_text[3] + " - " + range_text[5]
+
+        list_items = fragment.css("ul li")
+        exam_session[:classroom] = list_items[0].text.split("Aula: ")[1].downcase.strip
+        exam_session[:professor] = list_items[1].text.split("Docente: ")[1].downcase.strip
+        exam_session[:notes] = list_items[2].text.split("Nota: ")[1].downcase.strip if list_items[2]
+
+        sessions << ExamSession.new( exam_session )
+
+      end
+
+    end
+
+    sessions
   end
 end

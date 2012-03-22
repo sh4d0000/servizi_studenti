@@ -1,10 +1,13 @@
 ServiziStudenti::Application.routes.draw do
   resources :students
+  resources :exams
 
   get 'students/:id/key' => 'students#key', :as => :key 
   get 'students/:id/study_plan' => 'students#get_study_plan', :as => :study_plan 
   get 'students/:id/passed_exams' => 'students#get_passed_exams', :as => :passed_exams 
   get 'students/:id/isee' => 'students#get_isee', :as => :isee 
+  get 'students/:id/payments/:status' => 'students#get_payments', :as => :payments 
+  get 'sessions' => 'exams#get_sessions', :as => :exam_sessions
   
 
   # The priority is based upon order of creation:

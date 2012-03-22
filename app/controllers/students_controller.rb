@@ -33,7 +33,11 @@ class StudentsController < ApplicationController
     key = Key.new( {P_1XXD: params[:P_1XXD], P_2XXI: params[:P_2XXI], P_3XXC: params[:P_3XXC] } )
     passed_exams = StudentsPortalService.get_passed_exams( key )
 
-    respond_with passed_exams
+    respond_to do |format|
+      format.xml { render :xml => passed_exams }
+      format.json { render :json => {exams: passed_exams}.to_json }
+    end
+
   end
 
   # GET /students/:id/isee
@@ -43,5 +47,18 @@ class StudentsController < ApplicationController
     isee = StudentsPortalService.get_isee( key )
 
     respond_with isee 
+  end
+
+  # GET /students/:id/payments/:status
+  def get_payments
+
+    key = Key.new( {P_1XXD: params[:P_1XXD], P_2XXI: params[:P_2XXI], P_3XXC: params[:P_3XXC] } )
+    payments = StudentsPortalService.get_payments( key, params[:status].downcase.to_sym)
+
+    respond_to do |format|
+      format.xml {  render :xml => payments == [] ? '<payments type="array"></payments>' : payments }
+      format.json { render :json => {payments: payments}.to_json }
+    end
+
   end
 end
