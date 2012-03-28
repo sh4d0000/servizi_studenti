@@ -5,6 +5,12 @@ class AccessKeyService
 
     doc = Nokogiri::HTML( HTTParty.get( LOGIN_URL, query: { p_username: username, p_password: password }) )
 
+    if doc.css("input[ value *= 'Logout' ]").empty?
+
+      
+
+    end
+
     query_params =  Rack::Utils.parse_query URI( doc.css('form').attribute('action').value ).query
     query_params.delete "p_cod_lingua"
     

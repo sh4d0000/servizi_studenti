@@ -7,9 +7,9 @@ end
 Given /^I send and accept ([^\"]*)$/ do | format |
   @format = format.downcase.to_sym
 
-@content_type  = "application/#{@format.to_s}"
-header 'Accept', @content_type
-header 'Content-Type', @content_type
+  @content_type  = "application/#{@format.to_s}"
+  header 'Accept', @content_type
+  header 'Content-Type', @content_type
 
 end
 
@@ -50,6 +50,8 @@ Given /^I am logged in as ([^"]*) with pass ([^"]*)$/ do |username, pass|
   get key_url(id: username), {password: pass} 
 
   @key = JSON.parse( last_response.body )["key"]
+  @key.delete "created_at"
+  @key.delete "updated_at"
 
 end
 

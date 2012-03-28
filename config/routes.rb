@@ -8,6 +8,10 @@ ServiziStudenti::Application.routes.draw do
   get 'students/:id/isee' => 'students#get_isee', :as => :isee 
   get 'students/:id/payments/:status' => 'students#get_payments', :as => :payments 
   get 'sessions' => 'exams#get_sessions', :as => :exam_sessions
+
+  post 'sessions/booking' => 'exams#book', :as => :session_booking
+  get 'sessions/bookings' => 'exams#get_bookings', :as => :session_bookings
+  delete 'sessions/bookings' => 'exams#delete_booking', :as => :delete_session_booking
   
 
   # The priority is based upon order of creation:
