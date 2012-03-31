@@ -14,8 +14,8 @@ class StudentsController < ApplicationController
   def key 
 
     key = AccessKeyService.retrieve params[:id], params[:password] 
+    key ? respond_with( key, :status => :ok ) :  head( :forbidden )
 
-    respond_with key
   end
 
   # GET /students/:id/study_plan

@@ -7,14 +7,15 @@ class AccessKeyService
 
     if doc.css("input[ value *= 'Logout' ]").empty?
 
-      
+      return false
 
+    else
+
+      query_params =  Rack::Utils.parse_query URI( doc.css('form').attribute('action').value ).query
+      query_params.delete "p_cod_lingua"
+
+      Key.new query_params 
     end
-
-    query_params =  Rack::Utils.parse_query URI( doc.css('form').attribute('action').value ).query
-    query_params.delete "p_cod_lingua"
-    
-    Key.new query_params 
 
   end
 

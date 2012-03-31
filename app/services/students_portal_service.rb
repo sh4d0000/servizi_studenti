@@ -3,14 +3,14 @@ module StudentsPortalService
   extend self
 
   BASE = "http://www.servizi.uniparthenope.it/self/"
-  MENU_URL = "http://www.servizi.uniparthenope.it/self/gissweb.welcome"
-  PERSONAL_DATA_URL = "http://www.servizi.uniparthenope.it/self/SSGISSWU.SSGISSWU"
-  STUDY_PLAN_URL = "http://www.servizi.uniparthenope.it/self/SSGISSW2.SSGISSW2"
-  PASSED_EXAMS_URL = "http://www.servizi.uniparthenope.it/self/SSGISSW5.SSGISSW5"
-  ISEE_URL = "http://www.servizi.uniparthenope.it/self/SSIIOLKH.SSIIOLKH"
-  PAYMENTS_MADE_URL = "http://www.servizi.uniparthenope.it/self/SSGISSW6.SSGISSW6"
-  PAYMENTS_IN_DEBT_URL = "http://www.servizi.uniparthenope.it/self/SSGISSW7.SSGISSW7"
-  BOOKINGS_URL = "http://www.servizi.uniparthenope.it/self/SSGISSWF.SSGISSWF"
+  MENU_URL = BASE + "gissweb.welcome"
+  PERSONAL_DATA_URL = BASE + "SSGISSWU.SSGISSWU"
+  STUDY_PLAN_URL = BASE + "SSGISSW2.SSGISSW2"
+  PASSED_EXAMS_URL = BASE + "SSGISSW5.SSGISSW5"
+  ISEE_URL = BASE + "SSIIOLKH.SSIIOLKH"
+  PAYMENTS_MADE_URL = BASE + "SSGISSW6.SSGISSW6"
+  PAYMENTS_IN_DEBT_URL = BASE + "SSGISSW7.SSGISSW7"
+  BOOKINGS_URL = BASE + "SSGISSWF.SSGISSWF"
 
   private
   def self.get_doc( url, options )

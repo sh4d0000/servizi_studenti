@@ -26,9 +26,6 @@ Then /^the payments list should be empty$/ do
   last_response.content_type.should  have_content @content_type 
 
   response_data = get_hash_response
-  puts response_data
   response_data["payments"].should be_empty if @format == :json
-
-
 
 end

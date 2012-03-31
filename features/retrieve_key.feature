@@ -15,7 +15,6 @@ Feature: retrieve key
     Given I send and accept <format> 
     When I send a GET request for "students/0108001416/key" with password paramameter "xu3Yk_1" 
     Then the response code should be 403 
-    And the key should be valid
 
     Examples:
       | format |

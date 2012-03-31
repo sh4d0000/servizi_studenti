@@ -34,8 +34,8 @@ class ExamsController < ApplicationController
     key = Key.new( {P_1XXD: params[:P_1XXD], P_2XXI: params[:P_2XXI], P_3XXC: params[:P_3XXC] } )
     result = StudentsPortalService.delete_booking( key, URI.unescape( params[:delete_prenotation_url] ) )
 
-    status = :ok if result
-
+    status = result ? :ok : :forbidden
+  
     respond_to do |format|
       format.any  { head status } # only return the status code
     end
