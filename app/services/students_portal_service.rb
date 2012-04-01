@@ -3,7 +3,7 @@ module StudentsPortalService
   extend self
 
   BASE = "http://www.servizi.uniparthenope.it/self/"
-  MENU_URL = BASE + "gissweb.welcome"
+  HOME_URL = BASE + "gissweb.welcome"
   PERSONAL_DATA_URL = BASE + "SSGISSWU.SSGISSWU"
   STUDY_PLAN_URL = BASE + "SSGISSW2.SSGISSW2"
   PASSED_EXAMS_URL = BASE + "SSGISSW5.SSGISSW5"
@@ -12,51 +12,49 @@ module StudentsPortalService
   PAYMENTS_IN_DEBT_URL = BASE + "SSGISSW7.SSGISSW7"
   BOOKINGS_URL = BASE + "SSGISSWF.SSGISSWF"
 
+  @@menu_links = { 
+    personal_data: "Anagrafica",
+    study_plan: "Piano Studi",
+    passed_exams: "Esami",
+    isee: "ISEE",
+    made: "Effettuati",
+    in_debt: "In Debito",
+    bookings: "Esami prenotati",
+    book: "Prenotazioni"
+  }
+
   private
-  def self.get_doc( url, options )
+
+  def visit_menu_link link, options={}
+
+    doc = visit HOME_URL, options
+    href = doc.at_css("a[href != '#']:contains('#{link}')")[:href]
+
+    visit BASE + href 
+
+  end
+
+  def visit url, options={} 
 
     Nokogiri::HTML( HTTParty.get( url, options))
 
   end
 
-  def self.get_href( url, options, link_text, nlink = 0 )
-
-    doc = get_doc( url, options )
-    href = doc.css("a:contains('#{link_text}')")[nlink].attribute("href").value
-
-  end
-
-  def self.get_query_params( url, options, link_text, nlink = 0  )
-
-    href = get_href( url, options, link_text, nlink)
-    query_params =  Rack::Utils.parse_query URI( href ).query
-
-  end
-
-  def self.get_doc_from_menu( url, options, link_text, nlink = 0 )
-
-    query_params = get_query_params( MENU_URL, options, link_text, nlink )
-    options[:query][:P_3XXC] = query_params["P_3XXC"]
-
-    get_doc( url, options )
-
-  end
-
   public
-  def self.get_student( key )
+  def get_student( key )
 
     options = {query: { P_1XXD: key.P_1XXD, P_2XXI: key.P_2XXI, P_3XXC: key.P_3XXC } }
-    doc = get_doc_from_menu( PERSONAL_DATA_URL, options, "Anagrafica" )
+    doc = visit_menu_link @@menu_links[:personal_data], options 
 
     data = {}
 
     doc.css('table tr' ).each do | row |
-      data[row.css("th").text.strip.downcase] = row.css("td").text.strip.downcase
+      data[row.css("th").text.normalize] = row.css("td").text.normalize
     end
 
     place_and_date_of_birth = doc.css('table > td').text.split("-")
-    data['luogo di nascita'] = place_and_date_of_birth[0].strip.downcase
-    data['data di nascita'] = place_and_date_of_birth[1].strip.downcase
+    data['luogo di nascita'] = place_and_date_of_birth[0].normalize
+    data['data di nascita'] = place_and_date_of_birth[1].normalize
 
     Student.new( {
       name:            data['nome'],
@@ -70,10 +68,10 @@ module StudentsPortalService
 
   end
 
-  def self.get_study_plan( key )
+  def get_study_plan( key )
 
     options = {query: { P_1XXD: key.P_1XXD, P_2XXI: key.P_2XXI, P_3XXC: key.P_3XXC } }
-    doc = get_doc_from_menu( STUDY_PLAN_URL, options, "Piano Studi" )
+    doc = visit_menu_link @@menu_links[:study_plan], options 
 
     data = []
     year = 0
@@ -85,13 +83,13 @@ module StudentsPortalService
 
       tds = row.css("td")
 
-      if not tds.empty?
+      unless tds.empty?
         teaching = {}
-        teaching[:name]         = tds[0].text.strip.downcase
-        teaching[:outcome]      = tds[1].text.strip.downcase
-        teaching[:cfu]          = tds[2].text.strip.downcase
-        teaching[:taf]          = tds[3].text.strip.downcase
-        teaching[:ssd]          = tds[4].text.strip.downcase
+        teaching[:name]         = tds[0].text.normalize
+        teaching[:outcome]      = tds[1].text.normalize
+        teaching[:cfu]          = tds[2].text.normalize
+        teaching[:taf]          = tds[3].text.normalize
+        teaching[:ssd]          = tds[4].text.normalize
         teaching[:program_year] = year
 
         data << Teaching.new( teaching )
@@ -106,10 +104,10 @@ module StudentsPortalService
   end
 
 
-  def self.get_passed_exams( key )
+  def get_passed_exams( key )
 
     options = {query: { P_1XXD: key.P_1XXD, P_2XXI: key.P_2XXI, P_3XXC: key.P_3XXC } }
-    doc = get_doc_from_menu( PASSED_EXAMS_URL, options, "Esami", 1 )
+    doc = visit_menu_link @@menu_links[:passed_exams], options
 
     exams = []
 
@@ -117,12 +115,12 @@ module StudentsPortalService
 
       tds = row.css("td")
 
-      if not tds.empty?
+      unless tds.empty?
         exam = {}
-        exam[:code]    = tds[0].text.strip.downcase
-        exam[:name]    = tds[1].text.strip.downcase
-        exam[:date]    = tds[2].text.strip.downcase
-        exam[:outcome] = tds[3].text.strip.downcase
+        exam[:code]    = tds[0].text.normalize
+        exam[:name]    = tds[1].text.normalize
+        exam[:date]    = tds[2].text.normalize
+        exam[:outcome] = tds[3].text.normalize
 
         exams << Exam.new( exam )
       end
@@ -133,35 +131,34 @@ module StudentsPortalService
 
   end
 
-  def self.book_exam_session( key, booking_url )
+  def book_exam_session( key, booking_url )
 
     options = {query: { P_1XXD: key.P_1XXD, P_2XXI: key.P_2XXI, P_3XXC: key.P_3XXC } }
-    doc = get_doc( booking_url, options )
+    doc = visit booking_url, options 
 
     u_text =  doc.css("u:contains('Ordine di prenotazione')").text.split('"')
     booking_number = u_text[1].to_i
 
   end
 
-  def self.delete_booking( key, delete_booking_url )
+  def delete_booking( key, delete_booking_url )
 
     options = {query: { P_1XXD: key.P_1XXD, P_2XXI: key.P_2XXI, P_3XXC: key.P_3XXC } }
-    doc = get_doc( delete_booking_url, options )
-    puts doc
+    doc = visit delete_booking_url, options 
 
     not doc.css("p:contains('successo')").text.empty?
 
   end
 
-  def self.get_isee( key )
+  def get_isee( key )
 
     options = {query: { P_1XXD: key.P_1XXD, P_2XXI: key.P_2XXI, P_3XXC: key.P_3XXC } }
-    doc = get_doc_from_menu( ISEE_URL, options, "ISEE", 1 )
+    doc = visit_menu_link @@menu_links[:isee], options
 
     data = {}
 
     doc.css("table tr" ).each do | row |
-      data[row.css("th").text.strip.downcase] = row.css("td").text.strip.downcase
+      data[row.css("th").text.normalize] = row.css("td").text.strip.downcase
     end
 
     cognome_nome = data["cognome/nome"].split(" ")
@@ -184,18 +181,10 @@ module StudentsPortalService
   end
 
 
-  def self.get_payments( key, status )
-
-    if status == :made
-      link = "Effettuati"
-      url = PAYMENTS_MADE_URL
-    elsif status == :in_debt
-      link = "In Debito"
-      url = PAYMENTS_IN_DEBT_URL
-    end
+  def get_payments( key, status )
 
     options = {query: { P_1XXD: key.P_1XXD, P_2XXI: key.P_2XXI, P_3XXC: key.P_3XXC } }
-    doc = get_doc_from_menu( url, options, link )
+    doc = visit_menu_link @@menu_links[status], options
 
     payments = []
 
@@ -203,13 +192,13 @@ module StudentsPortalService
 
       tds = row.css("td")
 
-      if not tds.empty?
+      unless tds.empty?
         payment = {}
-        payment[:academic_year] = tds[0].text.strip.downcase
-        payment[:code]          = tds[1].text.strip.downcase
-        payment[:date]          = tds[4].text.strip.downcase
-        payment[:description]   = tds[2].text.strip.downcase
-        payment[:amount]        = tds[3].text.strip.downcase
+        payment[:academic_year] = tds[0].text.normalize
+        payment[:code]          = tds[1].text.normalize
+        payment[:date]          = tds[4].text.normalize
+        payment[:description]   = tds[2].text.normalize
+        payment[:amount]        = tds[3].text.normalize
         payment[:status]        = status
 
         payments << Payment.new( payment )
@@ -221,21 +210,19 @@ module StudentsPortalService
 
   end
 
-  def self.get_exam_sessions( key )
+  def get_exam_sessions( key )
 
-    options      = {query: { P_1XXD: key.P_1XXD, P_2XXI: key.P_2XXI, P_3XXC: key.P_3XXC } }
-    href         = get_href( MENU_URL, options, "Prenotazioni" )
-    query_params = Rack::Utils.parse_query URI( href ).query
+    options = {query: { P_1XXD: key.P_1XXD, P_2XXI: key.P_2XXI, P_3XXC: key.P_3XXC } }
+    doc = visit_menu_link @@menu_links[:book], options
 
-    doc          = Nokogiri::HTML( HTTParty.get( BASE + href, query: { P_1XXD: key.P_1XXD, P_2XXI: key.P_2XXI, P_3XXC: query_params["P_3XXC"] }))
-    href         = doc.css("a:contains('Cerca')").attribute("href").value
+    href = doc.at_css("a:contains('Cerca')")[:href]
 
-    doc          = Nokogiri::HTML( HTTParty.get( BASE + href, query: { P_1XXD: key.P_1XXD, P_2XXI: key.P_2XXI, P_3XXC: query_params["P_3XXC"] }))
-    href         = doc.css("a:contains('Qui')").attribute("href").value
+    doc  = visit BASE + href
+    href = doc.at_css("a:contains('Qui')")[:href]
 
-    links        = []
-    i            = 1
-    doc          = Nokogiri::HTML( HTTParty.get( BASE + href, query: { P_1XXD: key.P_1XXD, P_2XXI: key.P_2XXI, P_3XXC: query_params["P_3XXC"], p_page_num: i }))
+    links = []
+    i = 1
+    doc = visit BASE + href, query: {p_page_num: i} 
 
     while doc.css("table tr td").size != 0
 
@@ -244,39 +231,49 @@ module StudentsPortalService
       end
 
       i += 1
-      doc = Nokogiri::HTML( HTTParty.get( BASE + href, query: { P_1XXD: key.P_1XXD, P_2XXI: key.P_2XXI, P_3XXC: query_params["P_3XXC"], p_page_num: i }))
+      doc = visit  BASE + href, query: { p_page_num: i }
     end
 
     sessions = []
 
     links.each do | link |
 
-      details_doc = Nokogiri::HTML( HTTParty.get( BASE + link, query: { P_1XXD: key.P_1XXD, P_2XXI: key.P_2XXI, P_3XXC: query_params["P_3XXC"] }))
+      details_doc = visit BASE + link
 
       exam_session = {}
 
       exam_session[:teaching] = details_doc.css("h3:contains('Insegnamento')").text.downcase.split("insegnamento di")[1].strip
-      exam_session[:course] = details_doc.css("li:contains('Corso di Laurea') span").text.downcase.strip
-      exam_session[:address] = details_doc.css("li:contains('Indirizzo') span").text.downcase.strip
-      exam_session[:cfu] = details_doc.css("li:contains('CFU') span").text.downcase.strip
-      exam_session[:ssd] = details_doc.css("li:contains('SSD') span").text.downcase.strip
+      exam_session[:course] = details_doc.css("li:contains('Corso di Laurea') span").text.normalize
+      exam_session[:address] = details_doc.css("li:contains('Indirizzo') span").text.normalize
+      exam_session[:cfu] = details_doc.css("li:contains('CFU') span").text.normalize
+      exam_session[:ssd] = details_doc.css("li:contains('SSD') span").text.normalize
 
       details_doc.css("ol > li").each do | fragment |
 
         prenotation_link = fragment.css("a")
-        exam_session[:prenotation_url] = BASE + prenotation_link.attribute("href") if not prenotation_link.empty?
+        exam_session[:prenotation_url] = BASE + prenotation_link.attribute("href") unless prenotation_link.empty?
 
-        date_time = fragment.css("span")[0].text.downcase.strip
+        date_time = fragment.css("span")[0].text.normalize
         exam_session[:date] = date_time[12..21].strip
         exam_session[:time] = date_time[43..47].strip
 
         range_text = fragment.css("span")[1].text.downcase.split(" ")
         exam_session[:prenotation_range] = range_text[3] + " - " + range_text[5]
 
-        list_items = fragment.css("ul li")
-        exam_session[:classroom] = list_items[0].text.split("Aula: ")[1].downcase.strip
-        exam_session[:professor] = list_items[1].text.split("Docente: ")[1].downcase.strip
-        exam_session[:notes] = list_items[2].text.split("Nota: ")[1].downcase.strip if list_items[2]
+        classroom = fragment.css("ul li:contains('Aula: ')")
+        unless classroom.empty?
+          exam_session[:classroom] = classroom.text.split("Aula: ")[1].normalize 
+        end
+
+        professor =  fragment.css("ul li:contains('Docente: ')")
+        unless professor.empty? 
+          exam_session[:professor] = professor.text.split("Docente: ")[1].normalize 
+        end
+
+        notes =  fragment.css("ul li:contains('Nota: ')")
+        unless notes.empty? 
+          exam_session[:notes] = notes.text.split("Nota: ")[1].normalize 
+        end
 
         sessions << ExamSession.new( exam_session )
 
@@ -287,13 +284,10 @@ module StudentsPortalService
     sessions
   end
 
-  def self.get_exam_bookings( key )
+  def get_exam_bookings( key )
 
     options = {query: { P_1XXD: key.P_1XXD, P_2XXI: key.P_2XXI, P_3XXC: key.P_3XXC } }
-    href = get_href( BOOKINGS_URL, options, "Esami prenotati" )
-    query_params =  Rack::Utils.parse_query URI( href ).query
-
-    doc = Nokogiri::HTML( HTTParty.get( BASE + href, query: { P_1XXD: key.P_1XXD, P_2XXI: key.P_2XXI, P_3XXC: query_params["P_3XXC"] }))
+    doc = visit_menu_link @@menu_links[:bookings], options
 
     bookings = []
 
@@ -301,12 +295,12 @@ module StudentsPortalService
       if i != 0
         exam_booking = {}
 
-        prenotation_link = tr_fragment.css("a[ title *= 'Cancella' ]")
-        exam_booking[:delete_prenotation_url] = BASE + prenotation_link.attribute("href") if not prenotation_link.empty?
+        prenotation_link = tr_fragment.at_css("a[ title *= 'Cancella' ]")[:href]
+        exam_booking[:delete_prenotation_url] = BASE + prenotation_link unless prenotation_link.empty?
 
-        link = tr_fragment.css("a[ title *= 'dettaglio' ]")
+        link = tr_fragment.at_css("a[ title *= 'dettaglio' ]")[:href]
 
-        details_doc = Nokogiri::HTML( HTTParty.get( BASE + link.attribute("href"), query: { P_1XXD: key.P_1XXD, P_2XXI: key.P_2XXI, P_3XXC: query_params["P_3XXC"] }))
+        details_doc = visit BASE + link
 
 
         exam_booking[:teaching] = details_doc.css("h3:contains('Insegnamento')").text.downcase.split("insegnamento di")[1].strip
@@ -314,17 +308,17 @@ module StudentsPortalService
         details_doc.css("ol > li").each do | fragment |
 
 
-          date_time = fragment.css("span")[0].text.downcase.strip
+          date_time = fragment.css("span")[0].text.normalize
           exam_booking[:date] = date_time[12..21].strip
           exam_booking[:time] = date_time[28..32].strip
 
           range_text = fragment.css("span")[1].text.downcase.split(" ")
 
           list_items = fragment.css("ul li")
-          exam_booking[:classroom] = list_items[0].text.split("Aula: ")[1].downcase.strip
-          exam_booking[:professor] = list_items[1].text.split("Docente: ")[1].downcase.strip
-          exam_booking[:booking_number] = list_items[3].text.split("N.ro prenotazione: ")[1].downcase.strip
-          exam_booking[:notes] = list_items[2].text.split("Nota: ")[1].downcase.strip if list_items[2]
+          exam_booking[:classroom] = list_items[0].text.split("Aula: ")[1].normalize
+          exam_booking[:professor] = list_items[1].text.split("Docente: ")[1].normalize
+          exam_booking[:booking_number] = list_items[3].text.split("N.ro prenotazione: ")[1].normalize
+          exam_booking[:notes] = list_items[2].text.split("Nota: ")[1].normalize if list_items[2]
 
           bookings << ExamBooking.new( exam_booking )
 
