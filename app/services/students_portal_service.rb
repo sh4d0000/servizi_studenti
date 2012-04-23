@@ -4,13 +4,6 @@ module StudentsPortalService
 
   BASE = "http://www.servizi.uniparthenope.it/self/"
   HOME_URL = BASE + "gissweb.welcome"
-  PERSONAL_DATA_URL = BASE + "SSGISSWU.SSGISSWU"
-  STUDY_PLAN_URL = BASE + "SSGISSW2.SSGISSW2"
-  PASSED_EXAMS_URL = BASE + "SSGISSW5.SSGISSW5"
-  ISEE_URL = BASE + "SSIIOLKH.SSIIOLKH"
-  PAYMENTS_MADE_URL = BASE + "SSGISSW6.SSGISSW6"
-  PAYMENTS_IN_DEBT_URL = BASE + "SSGISSW7.SSGISSW7"
-  BOOKINGS_URL = BASE + "SSGISSWF.SSGISSWF"
 
   @@menu_links = { 
     personal_data: "Anagrafica",
@@ -28,7 +21,8 @@ module StudentsPortalService
   def visit_menu_link link, options={}
 
     doc = visit HOME_URL, options
-    href = doc.at_css("a[href != '#']:contains('#{link}')")[:href]
+    raise Exceptions::Unauthorized if (link = doc.at_css("a[href != '#']:contains('#{link}')")) == nil
+    href = link[:href]
 
     visit BASE + href 
 
@@ -47,14 +41,15 @@ module StudentsPortalService
     doc = visit_menu_link @@menu_links[:personal_data], options 
 
     data = {}
-
+  
     doc.css('table tr' ).each do | row |
       data[row.css("th").text.normalize] = row.css("td").text.normalize
     end
 
-    place_and_date_of_birth = doc.css('table > td').text.split("-")
-    data['luogo di nascita'] = place_and_date_of_birth[0].normalize
-    data['data di nascita'] = place_and_date_of_birth[1].normalize
+    place_and_date_of_birth = doc.css('table > td')
+    data['luogo di nascita'] = place_and_date_of_birth.text[/.* \(..\)/].normalize
+    data['data di nascita'] =  place_and_date_of_birth.text[/\d{2}\/\d{2}\/\d{4}/]
+
 
     Student.new( {
       name:            data['nome'],
@@ -158,12 +153,12 @@ module StudentsPortalService
     data = {}
 
     doc.css("table tr" ).each do | row |
-      data[row.css("th").text.normalize] = row.css("td").text.strip.downcase
+      data[row.css("th").text.normalize] = row.css("td").text.normalize
     end
 
-    cognome_nome = data["cognome/nome"].split(" ")
-    data["nome"] = cognome_nome[1]
-    data["cognome"] = cognome_nome[0]
+    match = / /.match data[ "cognome/nome" ] 
+    data["nome"] = match.post_match
+    data["cognome"] = match.pre_match
 
     Isee.new( {
       name:                    data["nome"],
@@ -227,7 +222,7 @@ module StudentsPortalService
     while doc.css("table tr td").size != 0
 
       doc.css("table tr td > a").each do | link |
-        links << link.attribute("href")
+        links << link[:href]
       end
 
       i += 1
@@ -254,8 +249,7 @@ module StudentsPortalService
         exam_session[:prenotation_url] = BASE + prenotation_link.attribute("href") unless prenotation_link.empty?
 
         date_time = fragment.css("span")[0].text.normalize
-        exam_session[:date] = date_time[12..21].strip
-        exam_session[:time] = date_time[43..47].strip
+        exam_session[:date] = date_time[12..21].strip + " " +  date_time[43..47].strip
 
         range_text = fragment.css("span")[1].text.downcase.split(" ")
         exam_session[:prenotation_range] = range_text[3] + " - " + range_text[5]
@@ -309,10 +303,7 @@ module StudentsPortalService
 
 
           date_time = fragment.css("span")[0].text.normalize
-          exam_booking[:date] = date_time[12..21].strip
-          exam_booking[:time] = date_time[28..32].strip
-
-          range_text = fragment.css("span")[1].text.downcase.split(" ")
+          exam_booking[:date] = date_time[12..21].strip + " " + date_time[28..32].strip
 
           list_items = fragment.css("ul li")
           exam_booking[:classroom] = list_items[0].text.split("Aula: ")[1].normalize

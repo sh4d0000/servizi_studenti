@@ -35176,3 +35176,2059 @@ Processing by StudentsController#key as XML
   Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416"}
 Completed 403 Forbidden in 547ms (ActiveRecord: 0.0ms)
   [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-01 03:43:23 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1490ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions?P_1XXD=6539441647260108306841977852438528622954&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=33084&id" for 127.0.0.1 at 2012-04-01 03:43:25 +0200
+Processing by ExamsController#get_sessions as JSON
+  Parameters: {"P_1XXD"=>"6539441647260108306841977852438528622954", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"33084", "id"=>nil, "exam"=>{"id"=>nil}}
+Completed 200 OK in 7349ms (Views: 0.2ms | ActiveRecord: 2.1ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-01 03:43:32 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1326ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions?P_1XXD=6539441647260108306841977852438528622954&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=33084&id" for 127.0.0.1 at 2012-04-01 03:43:34 +0200
+Processing by ExamsController#get_sessions as XML
+  Parameters: {"P_1XXD"=>"6539441647260108306841977852438528622954", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"33084", "id"=>nil}
+Completed 200 OK in 7268ms (Views: 86.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-01 16:15:18 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1958ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416?P_1XXD=6539441647260108306804004281312180564889&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=33343&id" for 127.0.0.1 at 2012-04-01 16:15:20 +0200
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"6539441647260108306804004281312180564889", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"33343", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 2834ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-01 16:15:23 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1674ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416?P_1XXD=6539441647260108306804004281312180564889&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=33343&id" for 127.0.0.1 at 2012-04-01 16:15:25 +0200
+Processing by StudentsController#show as XML
+  Parameters: {"P_1XXD"=>"6539441647260108306804004281312180564889", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"33343", "id"=>"0108001416"}
+Completed 200 OK in 2627ms (Views: 111.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-01 16:17:57 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1908ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416?P_1XXD=6539441647260108306844983334514079617079&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=33345&id" for 127.0.0.1 at 2012-04-01 16:17:58 +0200
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"6539441647260108306844983334514079617079", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"33345", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 2657ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-01 16:18:01 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1663ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416?P_1XXD=6539441647260108306815239652750140455996&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=33346&id" for 127.0.0.1 at 2012-04-01 16:18:03 +0200
+Processing by StudentsController#show as XML
+  Parameters: {"P_1XXD"=>"6539441647260108306815239652750140455996", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"33346", "id"=>"0108001416"}
+Completed 200 OK in 2601ms (Views: 56.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-01 16:21:30 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1788ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416?P_1XXD=6539441647260108306866101022337474820544&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=33596&id" for 127.0.0.1 at 2012-04-01 16:21:32 +0200
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"6539441647260108306866101022337474820544", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"33596", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 2665ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-01 16:21:35 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1627ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416?P_1XXD=6539441647260108306866101022337474820544&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=33596&id" for 127.0.0.1 at 2012-04-01 16:21:37 +0200
+Processing by StudentsController#show as XML
+  Parameters: {"P_1XXD"=>"6539441647260108306866101022337474820544", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"33596", "id"=>"0108001416"}
+Completed 200 OK in 2566ms (Views: 53.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-01 16:22:03 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1820ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416?P_1XXD=6539441647260108306835058831703918116189&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=33597&id" for 127.0.0.1 at 2012-04-01 16:22:04 +0200
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"6539441647260108306835058831703918116189", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"33597", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 3065ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-01 16:22:08 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1780ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416?P_1XXD=6539441647260108306835058831703918116189&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=33597&id" for 127.0.0.1 at 2012-04-01 16:22:09 +0200
+Processing by StudentsController#show as XML
+  Parameters: {"P_1XXD"=>"6539441647260108306835058831703918116189", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"33597", "id"=>"0108001416"}
+Completed 200 OK in 2993ms (Views: 53.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-01 16:23:48 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1922ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416?P_1XXD=6539441647260108306804090578938029513224&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=33598&id" for 127.0.0.1 at 2012-04-01 16:23:50 +0200
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"6539441647260108306804090578938029513224", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"33598", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 2680ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-01 16:23:52 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1726ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416?P_1XXD=6539441647260108306804090578938029513224&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=33598&id" for 127.0.0.1 at 2012-04-01 16:23:54 +0200
+Processing by StudentsController#show as XML
+  Parameters: {"P_1XXD"=>"6539441647260108306804090578938029513224", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"33598", "id"=>"0108001416"}
+Completed 200 OK in 2872ms (Views: 52.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-01 16:27:26 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1275ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416/isee?P_1XXD=6539441647260108306878542176050688632518&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=33602&id" for 127.0.0.1 at 2012-04-01 16:27:27 +0200
+Processing by StudentsController#get_isee as JSON
+  Parameters: {"P_1XXD"=>"6539441647260108306878542176050688632518", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"33602", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1865ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-01 16:27:29 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1233ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416/isee?P_1XXD=6539441647260108306878542176050688632518&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=33602&id" for 127.0.0.1 at 2012-04-01 16:27:30 +0200
+Processing by StudentsController#get_isee as XML
+  Parameters: {"P_1XXD"=>"6539441647260108306878542176050688632518", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"33602", "id"=>"0108001416"}
+Completed 200 OK in 1999ms (Views: 57.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-01 16:30:32 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 2547ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416/isee?P_1XXD=6539441647260108306833405187324358176720&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=33852&id" for 127.0.0.1 at 2012-04-01 16:30:34 +0200
+Processing by StudentsController#get_isee as JSON
+  Parameters: {"P_1XXD"=>"6539441647260108306833405187324358176720", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"33852", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 3337ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-01 16:30:38 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 2675ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416/isee?P_1XXD=6539441647260108306833405187324358176720&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=33852&id" for 127.0.0.1 at 2012-04-01 16:30:40 +0200
+Processing by StudentsController#get_isee as XML
+  Parameters: {"P_1XXD"=>"6539441647260108306833405187324358176720", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"33852", "id"=>"0108001416"}
+Completed 200 OK in 4948ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 17:22:54 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1616ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416?P_1XXD=4609055203463140845739096612934999276209&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=34882&id" for 127.0.0.1 at 2012-04-23 17:22:56 +0200
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"4609055203463140845739096612934999276209", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"34882", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1971ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 17:22:58 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1244ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416?P_1XXD=4609055203463140845739096612934999276209&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=34882&id" for 127.0.0.1 at 2012-04-23 17:22:59 +0200
+Processing by StudentsController#show as XML
+  Parameters: {"P_1XXD"=>"4609055203463140845739096612934999276209", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"34882", "id"=>"0108001416"}
+Completed 200 OK in 2088ms (Views: 103.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 17:27:41 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1398ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 17:27:42 +0200
+Processing by StudentsController#key as XML
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416"}
+Completed 200 OK in 1214ms (Views: 51.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 17:27:43 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 401 Unauthorized in 484ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 17:27:44 +0200
+Processing by StudentsController#key as XML
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416"}
+Completed 401 Unauthorized in 521ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 17:30:10 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 401 Unauthorized in 609ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 17:32:21 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1416ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416?P_1XXD=4609055203463140845766986544479845293628&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=35139&id" for 127.0.0.1 at 2012-04-23 17:32:22 +0200
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"4609055203463140845766986544479845293628", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"35139", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 2225ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 17:32:25 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1246ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416?P_1XXD=4609055203463140845766986544479845293628&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=35139&id" for 127.0.0.1 at 2012-04-23 17:32:26 +0200
+Processing by StudentsController#show as XML
+  Parameters: {"P_1XXD"=>"4609055203463140845766986544479845293628", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"35139", "id"=>"0108001416"}
+Completed 200 OK in 1906ms (Views: 58.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 17:32:28 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 401 Unauthorized in 536ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 17:32:29 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 401 Unauthorized in 528ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 17:34:42 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 2326ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416?P_1XXD=4609055203463140845787652771585072391912&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=35141&id" for 127.0.0.1 at 2012-04-23 17:34:45 +0200
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"4609055203463140845787652771585072391912", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"35141", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 2070ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 17:34:47 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1444ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416?P_1XXD=4609055203463140845787652771585072391912&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=35141&id" for 127.0.0.1 at 2012-04-23 17:34:48 +0200
+Processing by StudentsController#show as XML
+  Parameters: {"P_1XXD"=>"4609055203463140845787652771585072391912", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"35141", "id"=>"0108001416"}
+Completed 200 OK in 2013ms (Views: 57.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 17:38:26 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1517ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416?P_1XXD=4609055203463140845733483706547140013605&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=35145&id" for 127.0.0.1 at 2012-04-23 17:38:28 +0200
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"4609055203463140845733483706547140013605", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"35145", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 2070ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 17:38:30 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1825ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416?P_1XXD=4609055203463140845733483706547140013605&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=35145&id" for 127.0.0.1 at 2012-04-23 17:38:32 +0200
+Processing by StudentsController#show as XML
+  Parameters: {"P_1XXD"=>"4609055203463140845733483706547140013605", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"35145", "id"=>"0108001416"}
+Completed 200 OK in 2818ms (Views: 51.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 17:39:34 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1531ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416?P_1XXD=4609055203463140845765401143649042024456&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=35146&id" for 127.0.0.1 at 2012-04-23 17:39:35 +0200
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"4609055203463140845765401143649042024456", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"35146", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 2208ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 17:39:37 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1455ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416?P_1XXD=4609055203463140845765401143649042024456&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=35146&id" for 127.0.0.1 at 2012-04-23 17:39:39 +0200
+Processing by StudentsController#show as XML
+  Parameters: {"P_1XXD"=>"4609055203463140845765401143649042024456", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"35146", "id"=>"0108001416"}
+Completed 200 OK in 2279ms (Views: 57.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416?P_1XXD=0&P_2XXI=0&P_3XXC=0" for 127.0.0.1 at 2012-04-23 17:39:41 +0200
+Processing by StudentsController#show as HTML
+  Parameters: {"P_1XXD"=>"0", "P_2XXI"=>"0", "P_3XXC"=>"0", "id"=>"0108001416"}
+Completed 500 Internal Server Error in 465ms
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416?P_1XXD=0&P_2XXI=0&P_3XXC=0" for 127.0.0.1 at 2012-04-23 17:39:42 +0200
+Processing by StudentsController#show as HTML
+  Parameters: {"P_1XXD"=>"0", "P_2XXI"=>"0", "P_3XXC"=>"0", "id"=>"0108001416"}
+Completed 500 Internal Server Error in 719ms
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 18:23:27 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1590ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416?P_1XXD=4609055203463140845757809561813095393788&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=35140&id" for 127.0.0.1 at 2012-04-23 18:23:29 +0200
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"4609055203463140845757809561813095393788", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"35140", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 500 Internal Server Error in 713ms
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 18:23:30 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1253ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416?P_1XXD=4609055203463140845757809561813095393788&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=35140&id" for 127.0.0.1 at 2012-04-23 18:23:31 +0200
+Processing by StudentsController#show as XML
+  Parameters: {"P_1XXD"=>"4609055203463140845757809561813095393788", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"35140", "id"=>"0108001416"}
+Completed 500 Internal Server Error in 747ms
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416?P_1XXD=0&P_2XXI=0&P_3XXC=0" for 127.0.0.1 at 2012-04-23 18:23:32 +0200
+Processing by StudentsController#show as HTML
+  Parameters: {"P_1XXD"=>"0", "P_2XXI"=>"0", "P_3XXC"=>"0", "id"=>"0108001416"}
+Completed 406 Not Acceptable in 512ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416?P_1XXD=0&P_2XXI=0&P_3XXC=0" for 127.0.0.1 at 2012-04-23 18:23:32 +0200
+Processing by StudentsController#show as HTML
+  Parameters: {"P_1XXD"=>"0", "P_2XXI"=>"0", "P_3XXC"=>"0", "id"=>"0108001416"}
+Completed 406 Not Acceptable in 653ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 18:27:48 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 8649ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 18:27:57 +0200
+Processing by StudentsController#key as XML
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416"}
+Completed 200 OK in 8619ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 18:28:06 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 401 Unauthorized in 2126ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 18:28:08 +0200
+Processing by StudentsController#key as XML
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416"}
+Completed 401 Unauthorized in 1852ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 18:31:07 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 10207ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416?P_1XXD=4609055203463140845771935649654373260977&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=35395&id" for 127.0.0.1 at 2012-04-23 18:31:17 +0200
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"4609055203463140845771935649654373260977", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"35395", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 500 Internal Server Error in 14006ms
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 18:31:31 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 2079ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416?P_1XXD=4609055203463140845771935649654373260977&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=35395&id" for 127.0.0.1 at 2012-04-23 18:31:33 +0200
+Processing by StudentsController#show as XML
+  Parameters: {"P_1XXD"=>"4609055203463140845771935649654373260977", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"35395", "id"=>"0108001416"}
+Completed 500 Internal Server Error in 635ms
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416?P_1XXD=0&P_2XXI=0&P_3XXC=0" for 127.0.0.1 at 2012-04-23 18:31:34 +0200
+Processing by StudentsController#show as HTML
+  Parameters: {"P_1XXD"=>"0", "P_2XXI"=>"0", "P_3XXC"=>"0", "id"=>"0108001416"}
+Completed 500 Internal Server Error in 529ms
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416?P_1XXD=0&P_2XXI=0&P_3XXC=0" for 127.0.0.1 at 2012-04-23 18:31:34 +0200
+Processing by StudentsController#show as HTML
+  Parameters: {"P_1XXD"=>"0", "P_2XXI"=>"0", "P_3XXC"=>"0", "id"=>"0108001416"}
+Completed 500 Internal Server Error in 520ms
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 18:33:04 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1499ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416?P_1XXD=4609055203463140845719594693180897118469&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=35397&id" for 127.0.0.1 at 2012-04-23 18:33:06 +0200
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"4609055203463140845719594693180897118469", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"35397", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 4412ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 18:33:10 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1977ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416?P_1XXD=4609055203463140845719594693180897118469&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=35397&id" for 127.0.0.1 at 2012-04-23 18:33:12 +0200
+Processing by StudentsController#show as XML
+  Parameters: {"P_1XXD"=>"4609055203463140845719594693180897118469", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"35397", "id"=>"0108001416"}
+Completed 200 OK in 2928ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416?P_1XXD=0&P_2XXI=0&P_3XXC=0" for 127.0.0.1 at 2012-04-23 18:33:15 +0200
+Processing by StudentsController#show as HTML
+  Parameters: {"P_1XXD"=>"0", "P_2XXI"=>"0", "P_3XXC"=>"0", "id"=>"0108001416"}
+Completed 500 Internal Server Error in 1639ms
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416?P_1XXD=0&P_2XXI=0&P_3XXC=0" for 127.0.0.1 at 2012-04-23 18:33:17 +0200
+Processing by StudentsController#show as HTML
+  Parameters: {"P_1XXD"=>"0", "P_2XXI"=>"0", "P_3XXC"=>"0", "id"=>"0108001416"}
+Completed 500 Internal Server Error in 983ms
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 18:35:27 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1638ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416?P_1XXD=4609055203463140845724429860865598712349&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=35399&id" for 127.0.0.1 at 2012-04-23 18:35:29 +0200
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"4609055203463140845724429860865598712349", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"35399", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1945ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 18:35:31 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 2411ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416?P_1XXD=4609055203463140845724429860865598712349&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=35399&id" for 127.0.0.1 at 2012-04-23 18:35:33 +0200
+Processing by StudentsController#show as XML
+  Parameters: {"P_1XXD"=>"4609055203463140845724429860865598712349", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"35399", "id"=>"0108001416"}
+Completed 200 OK in 2595ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416?P_1XXD=0&P_2XXI=0&P_3XXC=0" for 127.0.0.1 at 2012-04-23 18:35:36 +0200
+Processing by StudentsController#show as HTML
+  Parameters: {"P_1XXD"=>"0", "P_2XXI"=>"0", "P_3XXC"=>"0", "id"=>"0108001416"}
+Completed 406 Not Acceptable in 541ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416?P_1XXD=0&P_2XXI=0&P_3XXC=0" for 127.0.0.1 at 2012-04-23 18:35:37 +0200
+Processing by StudentsController#show as HTML
+  Parameters: {"P_1XXD"=>"0", "P_2XXI"=>"0", "P_3XXC"=>"0", "id"=>"0108001416"}
+Completed 406 Not Acceptable in 574ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 18:37:43 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1294ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416?P_1XXD=4609055203463140845767385845593459987134&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=35401&id" for 127.0.0.1 at 2012-04-23 18:37:44 +0200
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"4609055203463140845767385845593459987134", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"35401", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1799ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 18:37:46 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1252ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416?P_1XXD=4609055203463140845767385845593459987134&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=35401&id" for 127.0.0.1 at 2012-04-23 18:37:47 +0200
+Processing by StudentsController#show as XML
+  Parameters: {"P_1XXD"=>"4609055203463140845767385845593459987134", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"35401", "id"=>"0108001416"}
+Completed 200 OK in 1939ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416?P_1XXD=0&P_2XXI=0&P_3XXC=0" for 127.0.0.1 at 2012-04-23 18:37:49 +0200
+Processing by StudentsController#show as HTML
+  Parameters: {"P_1XXD"=>"0", "P_2XXI"=>"0", "P_3XXC"=>"0", "id"=>"0108001416"}
+Completed 406 Not Acceptable in 479ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416?P_1XXD=0&P_2XXI=0&P_3XXC=0" for 127.0.0.1 at 2012-04-23 18:37:50 +0200
+Processing by StudentsController#show as HTML
+  Parameters: {"P_1XXD"=>"0", "P_2XXI"=>"0", "P_3XXC"=>"0", "id"=>"0108001416"}
+Completed 406 Not Acceptable in 515ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 18:44:38 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1427ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416?P_1XXD=4609055203463140845717693253171525369022&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=35655&id" for 127.0.0.1 at 2012-04-23 18:44:40 +0200
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"4609055203463140845717693253171525369022", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"35655", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 2061ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 18:44:42 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1286ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416?P_1XXD=4609055203463140845717693253171525369022&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=35655&id" for 127.0.0.1 at 2012-04-23 18:44:43 +0200
+Processing by StudentsController#show as XML
+  Parameters: {"P_1XXD"=>"4609055203463140845717693253171525369022", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"35655", "id"=>"0108001416"}
+Completed 200 OK in 1874ms (Views: 18.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416?P_1XXD=0&P_2XXI=0&P_3XXC=0" for 127.0.0.1 at 2012-04-23 18:44:45 +0200
+Processing by StudentsController#show as HTML
+  Parameters: {"P_1XXD"=>"0", "P_2XXI"=>"0", "P_3XXC"=>"0", "id"=>"0108001416"}
+Completed 406 Not Acceptable in 417ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416?P_1XXD=0&P_2XXI=0&P_3XXC=0" for 127.0.0.1 at 2012-04-23 18:44:46 +0200
+Processing by StudentsController#show as HTML
+  Parameters: {"P_1XXD"=>"0", "P_2XXI"=>"0", "P_3XXC"=>"0", "id"=>"0108001416"}
+Completed 406 Not Acceptable in 494ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 18:45:24 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1896ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416?P_1XXD=4609055203463140845740368540078029383887&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=35656&id" for 127.0.0.1 at 2012-04-23 18:45:26 +0200
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"4609055203463140845740368540078029383887", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"35656", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1945ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 18:45:28 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1294ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416?P_1XXD=4609055203463140845740368540078029383887&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=35656&id" for 127.0.0.1 at 2012-04-23 18:45:30 +0200
+Processing by StudentsController#show as XML
+  Parameters: {"P_1XXD"=>"4609055203463140845740368540078029383887", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"35656", "id"=>"0108001416"}
+Completed 200 OK in 2104ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416?P_1XXD=0&P_2XXI=0&P_3XXC=0" for 127.0.0.1 at 2012-04-23 18:45:32 +0200
+Processing by StudentsController#show as HTML
+  Parameters: {"P_1XXD"=>"0", "P_2XXI"=>"0", "P_3XXC"=>"0", "id"=>"0108001416"}
+Completed 406 Not Acceptable in 587ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416?P_1XXD=0&P_2XXI=0&P_3XXC=0" for 127.0.0.1 at 2012-04-23 18:45:33 +0200
+Processing by StudentsController#show as HTML
+  Parameters: {"P_1XXD"=>"0", "P_2XXI"=>"0", "P_3XXC"=>"0", "id"=>"0108001416"}
+Completed 406 Not Acceptable in 527ms (ActiveRecord: 0.0ms)
+  [1m[35m (2.9ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 18:47:09 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1848ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416?P_1XXD=4609055203463140845734250248987867001171&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=35658&id" for 127.0.0.1 at 2012-04-23 18:47:11 +0200
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"4609055203463140845734250248987867001171", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"35658", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 2145ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 18:47:13 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1656ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416?P_1XXD=4609055203463140845734250248987867001171&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=35658&id" for 127.0.0.1 at 2012-04-23 18:47:15 +0200
+Processing by StudentsController#show as XML
+  Parameters: {"P_1XXD"=>"4609055203463140845734250248987867001171", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"35658", "id"=>"0108001416"}
+Completed 200 OK in 1954ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416?P_1XXD=0&P_2XXI=0&P_3XXC=0" for 127.0.0.1 at 2012-04-23 18:47:17 +0200
+Processing by StudentsController#show as HTML
+  Parameters: {"P_1XXD"=>"0", "P_2XXI"=>"0", "P_3XXC"=>"0", "id"=>"0108001416"}
+Completed 406 Not Acceptable in 469ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.6ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416?P_1XXD=0&P_2XXI=0&P_3XXC=0" for 127.0.0.1 at 2012-04-23 18:47:18 +0200
+Processing by StudentsController#show as HTML
+  Parameters: {"P_1XXD"=>"0", "P_2XXI"=>"0", "P_3XXC"=>"0", "id"=>"0108001416"}
+Completed 406 Not Acceptable in 506ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 18:47:56 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 2156ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416?P_1XXD=4609055203463140845734250248987867001171&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=35658&id" for 127.0.0.1 at 2012-04-23 18:47:59 +0200
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"4609055203463140845734250248987867001171", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"35658", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 2231ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 18:48:01 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1353ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416?P_1XXD=4609055203463140845768222099481645914958&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=35659&id" for 127.0.0.1 at 2012-04-23 18:48:02 +0200
+Processing by StudentsController#show as XML
+  Parameters: {"P_1XXD"=>"4609055203463140845768222099481645914958", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"35659", "id"=>"0108001416"}
+Completed 200 OK in 4351ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416?P_1XXD=0&P_2XXI=0&P_3XXC=0" for 127.0.0.1 at 2012-04-23 18:48:07 +0200
+Processing by StudentsController#show as HTML
+  Parameters: {"P_1XXD"=>"0", "P_2XXI"=>"0", "P_3XXC"=>"0", "id"=>"0108001416"}
+Completed 200 OK in 491ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416?P_1XXD=0&P_2XXI=0&P_3XXC=0" for 127.0.0.1 at 2012-04-23 18:48:07 +0200
+Processing by StudentsController#show as HTML
+  Parameters: {"P_1XXD"=>"0", "P_2XXI"=>"0", "P_3XXC"=>"0", "id"=>"0108001416"}
+Completed 200 OK in 534ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 18:50:20 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1474ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416?P_1XXD=4609055203463140845708472544740788589087&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=35908&id" for 127.0.0.1 at 2012-04-23 18:50:21 +0200
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"4609055203463140845708472544740788589087", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"35908", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 2140ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 18:50:24 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 2059ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416?P_1XXD=4609055203463140845708472544740788589087&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=35908&id" for 127.0.0.1 at 2012-04-23 18:50:26 +0200
+Processing by StudentsController#show as XML
+  Parameters: {"P_1XXD"=>"4609055203463140845708472544740788589087", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"35908", "id"=>"0108001416"}
+Completed 200 OK in 2029ms (Views: 13.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416?P_1XXD=0&P_2XXI=0&P_3XXC=0" for 127.0.0.1 at 2012-04-23 18:50:28 +0200
+Processing by StudentsController#show as HTML
+  Parameters: {"P_1XXD"=>"0", "P_2XXI"=>"0", "P_3XXC"=>"0", "id"=>"0108001416"}
+  Rendered text template (0.0ms)
+Completed 401 Unauthorized in 551ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416?P_1XXD=0&P_2XXI=0&P_3XXC=0" for 127.0.0.1 at 2012-04-23 18:50:29 +0200
+Processing by StudentsController#show as HTML
+  Parameters: {"P_1XXD"=>"0", "P_2XXI"=>"0", "P_3XXC"=>"0", "id"=>"0108001416"}
+  Rendered text template (0.0ms)
+Completed 401 Unauthorized in 562ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 18:51:39 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1483ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416?P_1XXD=4609055203463140845780941026314400827075&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=35909&id" for 127.0.0.1 at 2012-04-23 18:51:41 +0200
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"4609055203463140845780941026314400827075", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"35909", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 2018ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 18:51:43 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1260ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416?P_1XXD=4609055203463140845780941026314400827075&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=35909&id" for 127.0.0.1 at 2012-04-23 18:51:44 +0200
+Processing by StudentsController#show as XML
+  Parameters: {"P_1XXD"=>"4609055203463140845780941026314400827075", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"35909", "id"=>"0108001416"}
+Completed 200 OK in 1818ms (Views: 10.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416?P_1XXD=0&P_2XXI=0&P_3XXC=0" for 127.0.0.1 at 2012-04-23 18:51:46 +0200
+Processing by StudentsController#show as HTML
+  Parameters: {"P_1XXD"=>"0", "P_2XXI"=>"0", "P_3XXC"=>"0", "id"=>"0108001416"}
+  Rendered text template (0.0ms)
+Completed 401 Unauthorized in 490ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416?P_1XXD=0&P_2XXI=0&P_3XXC=0" for 127.0.0.1 at 2012-04-23 18:51:47 +0200
+Processing by StudentsController#show as HTML
+  Parameters: {"P_1XXD"=>"0", "P_2XXI"=>"0", "P_3XXC"=>"0", "id"=>"0108001416"}
+  Rendered text template (0.0ms)
+Completed 401 Unauthorized in 487ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 18:57:27 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1519ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416/study_plan?P_1XXD=4609055203463140845793883078902775432496&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=35915&id" for 127.0.0.1 at 2012-04-23 18:57:28 +0200
+Processing by StudentsController#get_study_plan as JSON
+  Parameters: {"P_1XXD"=>"4609055203463140845793883078902775432496", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"35915", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 2583ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 18:57:31 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1352ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416/study_plan?P_1XXD=4609055203463140845793883078902775432496&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=35915&id" for 127.0.0.1 at 2012-04-23 18:57:32 +0200
+Processing by StudentsController#get_study_plan as XML
+  Parameters: {"P_1XXD"=>"4609055203463140845793883078902775432496", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"35915", "id"=>"0108001416"}
+Completed 200 OK in 2518ms (Views: 87.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 19:01:18 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1608ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions?P_1XXD=4609055203463140845725436327716518947566&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=34881&id" for 127.0.0.1 at 2012-04-23 19:01:20 +0200
+Processing by ExamsController#get_sessions as JSON
+  Parameters: {"P_1XXD"=>"4609055203463140845725436327716518947566", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"34881", "id"=>nil, "exam"=>{"id"=>nil}}
+Completed 200 OK in 11196ms (Views: 0.2ms | ActiveRecord: 21.4ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 19:01:31 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1205ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions?P_1XXD=4609055203463140845725436327716518947566&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=34881&id" for 127.0.0.1 at 2012-04-23 19:01:32 +0200
+Processing by ExamsController#get_sessions as XML
+  Parameters: {"P_1XXD"=>"4609055203463140845725436327716518947566", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"34881", "id"=>nil}
+Completed 200 OK in 11073ms (Views: 104.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 19:09:05 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1499ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions?P_1XXD=4609055203463140845726719031395102340615&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=34889&id" for 127.0.0.1 at 2012-04-23 19:09:06 +0200
+Processing by ExamsController#get_sessions as JSON
+  Parameters: {"P_1XXD"=>"4609055203463140845726719031395102340615", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"34889", "id"=>nil, "exam"=>{"id"=>nil}}
+Completed 200 OK in 20440ms (Views: 0.2ms | ActiveRecord: 1.8ms)
+  [1m[35m (0.6ms)[0m  ROLLBACK
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 19:09:27 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1787ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions?P_1XXD=4609055203463140845726719031395102340615&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=34889&id" for 127.0.0.1 at 2012-04-23 19:09:29 +0200
+Processing by ExamsController#get_sessions as XML
+  Parameters: {"P_1XXD"=>"4609055203463140845726719031395102340615", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"34889", "id"=>nil}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 19:19:00 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1565ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions?P_1XXD=4609055203463140845762466303155735206795&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=35146&id" for 127.0.0.1 at 2012-04-23 19:19:02 +0200
+Processing by ExamsController#get_sessions as JSON
+  Parameters: {"P_1XXD"=>"4609055203463140845762466303155735206795", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"35146", "id"=>nil, "exam"=>{"id"=>nil}}
+Completed 200 OK in 12127ms (Views: 0.2ms | ActiveRecord: 2.2ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 19:19:14 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 2040ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions?P_1XXD=4609055203463140845762466303155735206795&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=35146&id" for 127.0.0.1 at 2012-04-23 19:19:16 +0200
+Processing by ExamsController#get_sessions as XML
+  Parameters: {"P_1XXD"=>"4609055203463140845762466303155735206795", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"35146", "id"=>nil}
+Completed 200 OK in 11160ms (Views: 38.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 19:22:59 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1524ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions?P_1XXD=4609055203463140845786921496257349545017&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=35396&id" for 127.0.0.1 at 2012-04-23 19:23:00 +0200
+Processing by ExamsController#get_sessions as JSON
+  Parameters: {"P_1XXD"=>"4609055203463140845786921496257349545017", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"35396", "id"=>nil, "exam"=>{"id"=>nil}}
+Completed 200 OK in 13233ms (Views: 0.3ms | ActiveRecord: 1.9ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 19:23:14 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1866ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions?P_1XXD=4609055203463140845761968796350993563698&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=35397&id" for 127.0.0.1 at 2012-04-23 19:23:15 +0200
+Processing by ExamsController#get_sessions as XML
+  Parameters: {"P_1XXD"=>"4609055203463140845761968796350993563698", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"35397", "id"=>nil}
+Completed 200 OK in 14837ms (Views: 49.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 19:31:07 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 2101ms (Views: 3.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/bookings?P_1XXD=4609055203463140845705180404850838096892&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=35652&id" for 127.0.0.1 at 2012-04-23 19:31:09 +0200
+Processing by ExamsController#get_bookings as XML
+  Parameters: {"P_1XXD"=>"4609055203463140845705180404850838096892", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"35652", "id"=>nil}
+Completed 200 OK in 3922ms (Views: 80.8ms | ActiveRecord: 5.2ms)
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 19:31:14 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1363ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/bookings?P_1XXD=4609055203463140845705180404850838096892&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=35652&id" for 127.0.0.1 at 2012-04-23 19:31:16 +0200
+Processing by ExamsController#get_bookings as JSON
+  Parameters: {"P_1XXD"=>"4609055203463140845705180404850838096892", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"35652", "id"=>nil, "exam"=>{"id"=>nil}}
+Completed 200 OK in 3749ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (1.8ms)[0m  ROLLBACK
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 19:32:02 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 2098ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions?P_1XXD=4609055203463140845742901210753954750847&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=35653&id" for 127.0.0.1 at 2012-04-23 19:32:04 +0200
+Processing by ExamsController#get_sessions as JSON
+  Parameters: {"P_1XXD"=>"4609055203463140845742901210753954750847", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"35653", "id"=>nil, "exam"=>{"id"=>nil}}
+Completed 200 OK in 15514ms (Views: 0.6ms | ActiveRecord: 4.8ms)
+  [1m[35m (0.5ms)[0m  ROLLBACK
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 19:32:20 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1315ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions?P_1XXD=4609055203463140845742901210753954750847&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=35653&id" for 127.0.0.1 at 2012-04-23 19:32:21 +0200
+Processing by ExamsController#get_sessions as XML
+  Parameters: {"P_1XXD"=>"4609055203463140845742901210753954750847", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"35653", "id"=>nil}
+Completed 200 OK in 14517ms (Views: 152.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.4ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 19:37:42 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1435ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions?P_1XXD=4609055203463140845756540627131730421493&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=35658&id" for 127.0.0.1 at 2012-04-23 19:37:44 +0200
+Processing by ExamsController#get_sessions as JSON
+  Parameters: {"P_1XXD"=>"4609055203463140845756540627131730421493", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"35658", "id"=>nil, "exam"=>{"id"=>nil}}
+Completed 200 OK in 11777ms (Views: 0.2ms | ActiveRecord: 1.7ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 19:37:56 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1418ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions?P_1XXD=4609055203463140845756540627131730421493&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=35658&id" for 127.0.0.1 at 2012-04-23 19:37:57 +0200
+Processing by ExamsController#get_sessions as XML
+  Parameters: {"P_1XXD"=>"4609055203463140845756540627131730421493", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"35658", "id"=>nil}
+Completed 200 OK in 12314ms (Views: 35.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 19:41:06 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 2032ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions?P_1XXD=4609055203463140845765618463157458440330&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=35909&id" for 127.0.0.1 at 2012-04-23 19:41:08 +0200
+Processing by ExamsController#get_sessions as JSON
+  Parameters: {"P_1XXD"=>"4609055203463140845765618463157458440330", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"35909", "id"=>nil, "exam"=>{"id"=>nil}}
+Completed 200 OK in 14066ms (Views: 0.2ms | ActiveRecord: 1.6ms)
+  [1m[35m (1.5ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 19:41:22 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1969ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions?P_1XXD=4609055203463140845765618463157458440330&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=35909&id" for 127.0.0.1 at 2012-04-23 19:41:24 +0200
+Processing by ExamsController#get_sessions as XML
+  Parameters: {"P_1XXD"=>"4609055203463140845765618463157458440330", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"35909", "id"=>nil}
+Completed 200 OK in 11874ms (Views: 32.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 19:43:58 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1473ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions?P_1XXD=4609055203463140845708128578074883893532&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=35911&id" for 127.0.0.1 at 2012-04-23 19:43:59 +0200
+Processing by ExamsController#get_sessions as JSON
+  Parameters: {"P_1XXD"=>"4609055203463140845708128578074883893532", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"35911", "id"=>nil, "exam"=>{"id"=>nil}}
+Completed 200 OK in 14714ms (Views: 0.3ms | ActiveRecord: 2.9ms)
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 19:44:14 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 2069ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions?P_1XXD=4609055203463140845712752977480466537264&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=35912&id" for 127.0.0.1 at 2012-04-23 19:44:16 +0200
+Processing by ExamsController#get_sessions as XML
+  Parameters: {"P_1XXD"=>"4609055203463140845712752977480466537264", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"35912", "id"=>nil}
+Completed 200 OK in 14876ms (Views: 38.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 19:47:34 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 2146ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions?P_1XXD=4609055203463140845726260237283348723761&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=35915&id" for 127.0.0.1 at 2012-04-23 19:47:36 +0200
+Processing by ExamsController#get_sessions as JSON
+  Parameters: {"P_1XXD"=>"4609055203463140845726260237283348723761", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"35915", "id"=>nil, "exam"=>{"id"=>nil}}
+Completed 200 OK in 16698ms (Views: 0.2ms | ActiveRecord: 2.0ms)
+  [1m[35m (0.4ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 19:47:53 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 2477ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions?P_1XXD=4609055203463140845726260237283348723761&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=35915&id" for 127.0.0.1 at 2012-04-23 19:47:56 +0200
+Processing by ExamsController#get_sessions as XML
+  Parameters: {"P_1XXD"=>"4609055203463140845726260237283348723761", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"35915", "id"=>nil}
+Completed 200 OK in 12924ms (Views: 31.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 19:50:06 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1644ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions?P_1XXD=4609055203463140845732386025442620890219&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=36165&id" for 127.0.0.1 at 2012-04-23 19:50:08 +0200
+Processing by ExamsController#get_sessions as JSON
+  Parameters: {"P_1XXD"=>"4609055203463140845732386025442620890219", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"36165", "id"=>nil, "exam"=>{"id"=>nil}}
+Completed 200 OK in 11661ms (Views: 0.2ms | ActiveRecord: 2.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 19:50:20 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1285ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions?P_1XXD=4609055203463140845732386025442620890219&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=36165&id" for 127.0.0.1 at 2012-04-23 19:50:21 +0200
+Processing by ExamsController#get_sessions as XML
+  Parameters: {"P_1XXD"=>"4609055203463140845732386025442620890219", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"36165", "id"=>nil}
+Completed 200 OK in 12673ms (Views: 41.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 19:51:29 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1602ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions?P_1XXD=4609055203463140845725594708370948778187&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=36166&id" for 127.0.0.1 at 2012-04-23 19:51:31 +0200
+Processing by ExamsController#get_sessions as JSON
+  Parameters: {"P_1XXD"=>"4609055203463140845725594708370948778187", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"36166", "id"=>nil, "exam"=>{"id"=>nil}}
+Completed 200 OK in 13317ms (Views: 0.2ms | ActiveRecord: 1.3ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 19:51:44 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1526ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions?P_1XXD=4609055203463140845725594708370948778187&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=36166&id" for 127.0.0.1 at 2012-04-23 19:51:46 +0200
+Processing by ExamsController#get_sessions as XML
+  Parameters: {"P_1XXD"=>"4609055203463140845725594708370948778187", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"36166", "id"=>nil}
+Completed 200 OK in 12262ms (Views: 34.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (3.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 19:53:28 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1855ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/bookings?P_1XXD=4609055203463140845700366676307436998252&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=36168&id" for 127.0.0.1 at 2012-04-23 19:53:30 +0200
+Processing by ExamsController#get_bookings as XML
+  Parameters: {"P_1XXD"=>"4609055203463140845700366676307436998252", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"36168", "id"=>nil}
+Completed 200 OK in 3214ms (Views: 16.4ms | ActiveRecord: 1.5ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 19:53:33 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1473ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/bookings?P_1XXD=4609055203463140845700366676307436998252&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=36168&id" for 127.0.0.1 at 2012-04-23 19:53:35 +0200
+Processing by ExamsController#get_bookings as JSON
+  Parameters: {"P_1XXD"=>"4609055203463140845700366676307436998252", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"36168", "id"=>nil, "exam"=>{"id"=>nil}}
+Completed 200 OK in 3502ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 20:02:53 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 2815ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/bookings?P_1XXD=4609055203463140845787565646296399205697&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=32826&id" for 127.0.0.1 at 2012-04-23 20:02:56 +0200
+Processing by ExamsController#get_bookings as XML
+  Parameters: {"P_1XXD"=>"4609055203463140845787565646296399205697", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"32826", "id"=>nil}
+Completed 200 OK in 9905ms (Views: 16.7ms | ActiveRecord: 1.3ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 20:03:06 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1688ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/bookings?P_1XXD=4609055203463140845700841613520071235464&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=32827&id" for 127.0.0.1 at 2012-04-23 20:03:08 +0200
+Processing by ExamsController#get_bookings as JSON
+  Parameters: {"P_1XXD"=>"4609055203463140845700841613520071235464", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"32827", "id"=>nil, "exam"=>{"id"=>nil}}
+Completed 200 OK in 6867ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 20:05:07 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 5348ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/bookings?P_1XXD=4609055203463140845750300725357796179687&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=32829&id" for 127.0.0.1 at 2012-04-23 20:05:13 +0200
+Processing by ExamsController#get_bookings as XML
+  Parameters: {"P_1XXD"=>"4609055203463140845750300725357796179687", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"32829", "id"=>nil}
+Completed 200 OK in 16380ms (Views: 17.5ms | ActiveRecord: 2.1ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 20:05:29 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1935ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/bookings?P_1XXD=4609055203463140845750300725357796179687&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=32829&id" for 127.0.0.1 at 2012-04-23 20:05:31 +0200
+Processing by ExamsController#get_bookings as JSON
+  Parameters: {"P_1XXD"=>"4609055203463140845750300725357796179687", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"32829", "id"=>nil, "exam"=>{"id"=>nil}}
+Completed 200 OK in 3814ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 20:06:41 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1842ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416/passed_exams?P_1XXD=4609055203463140845781897655373103289976&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=32830&id" for 127.0.0.1 at 2012-04-23 20:06:43 +0200
+Processing by StudentsController#get_passed_exams as JSON
+  Parameters: {"P_1XXD"=>"4609055203463140845781897655373103289976", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"32830", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 3104ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 20:06:46 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1425ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416/passed_exams?P_1XXD=4609055203463140845781897655373103289976&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=32830&id" for 127.0.0.1 at 2012-04-23 20:06:48 +0200
+Processing by StudentsController#get_passed_exams as XML
+  Parameters: {"P_1XXD"=>"4609055203463140845781897655373103289976", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"32830", "id"=>"0108001416"}
+Completed 200 OK in 2516ms (Views: 40.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 20:08:04 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1903ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416/isee?P_1XXD=4609055203463140845738483878502659785482&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=32832&id" for 127.0.0.1 at 2012-04-23 20:08:06 +0200
+Processing by StudentsController#get_isee as JSON
+  Parameters: {"P_1XXD"=>"4609055203463140845738483878502659785482", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"32832", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 2369ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 20:08:08 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 2373ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416/isee?P_1XXD=4609055203463140845738483878502659785482&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=32832&id" for 127.0.0.1 at 2012-04-23 20:08:11 +0200
+Processing by StudentsController#get_isee as XML
+  Parameters: {"P_1XXD"=>"4609055203463140845738483878502659785482", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"32832", "id"=>"0108001416"}
+Completed 200 OK in 2498ms (Views: 14.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 20:08:31 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 2533ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/bookings?P_1XXD=4609055203463140845738483878502659785482&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=32832&id" for 127.0.0.1 at 2012-04-23 20:08:34 +0200
+Processing by ExamsController#get_bookings as XML
+  Parameters: {"P_1XXD"=>"4609055203463140845738483878502659785482", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"32832", "id"=>nil}
+Completed 200 OK in 5047ms (Views: 14.6ms | ActiveRecord: 1.2ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 20:08:39 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 2453ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/bookings?P_1XXD=4609055203463140845738483878502659785482&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=32832&id" for 127.0.0.1 at 2012-04-23 20:08:41 +0200
+Processing by ExamsController#get_bookings as JSON
+  Parameters: {"P_1XXD"=>"4609055203463140845738483878502659785482", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"32832", "id"=>nil, "exam"=>{"id"=>nil}}
+Completed 200 OK in 2925ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (1.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 20:08:44 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1655ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions?P_1XXD=4609055203463140845738483878502659785482&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=32832&id" for 127.0.0.1 at 2012-04-23 20:08:46 +0200
+Processing by ExamsController#get_sessions as JSON
+  Parameters: {"P_1XXD"=>"4609055203463140845738483878502659785482", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"32832", "id"=>nil, "exam"=>{"id"=>nil}}
+Completed 500 Internal Server Error in 6321ms
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 20:08:52 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1489ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions?P_1XXD=4609055203463140845738483878502659785482&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=32832&id" for 127.0.0.1 at 2012-04-23 20:08:54 +0200
+Processing by ExamsController#get_sessions as XML
+  Parameters: {"P_1XXD"=>"4609055203463140845738483878502659785482", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"32832", "id"=>nil}
+Completed 500 Internal Server Error in 6058ms
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 20:09:00 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1839ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416/isee?P_1XXD=4609055203463140845733380215201743504304&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=32833&id" for 127.0.0.1 at 2012-04-23 20:09:02 +0200
+Processing by StudentsController#get_isee as JSON
+  Parameters: {"P_1XXD"=>"4609055203463140845733380215201743504304", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"32833", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 2354ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 20:09:04 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1609ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416/isee?P_1XXD=4609055203463140845733380215201743504304&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=32833&id" for 127.0.0.1 at 2012-04-23 20:09:06 +0200
+Processing by StudentsController#get_isee as XML
+  Parameters: {"P_1XXD"=>"4609055203463140845733380215201743504304", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"32833", "id"=>"0108001416"}
+Completed 200 OK in 2613ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 20:09:08 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1692ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416/passed_exams?P_1XXD=4609055203463140845733380215201743504304&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=32833&id" for 127.0.0.1 at 2012-04-23 20:09:10 +0200
+Processing by StudentsController#get_passed_exams as JSON
+  Parameters: {"P_1XXD"=>"4609055203463140845733380215201743504304", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"32833", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 4398ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 20:09:15 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 2144ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416/passed_exams?P_1XXD=4609055203463140845733380215201743504304&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=32833&id" for 127.0.0.1 at 2012-04-23 20:09:17 +0200
+Processing by StudentsController#get_passed_exams as XML
+  Parameters: {"P_1XXD"=>"4609055203463140845733380215201743504304", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"32833", "id"=>"0108001416"}
+Completed 200 OK in 2112ms (Views: 26.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 20:09:19 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1367ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416/payments/made?P_1XXD=4609055203463140845733380215201743504304&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=32833&id" for 127.0.0.1 at 2012-04-23 20:09:20 +0200
+Processing by StudentsController#get_payments as JSON
+  Parameters: {"P_1XXD"=>"4609055203463140845733380215201743504304", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"32833", "id"=>"0108001416", "status"=>"made", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 2332ms (Views: 0.2ms | ActiveRecord: 1.3ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 20:09:23 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 2593ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416/payments/made?P_1XXD=4609055203463140845733380215201743504304&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=32833&id" for 127.0.0.1 at 2012-04-23 20:09:25 +0200
+Processing by StudentsController#get_payments as XML
+  Parameters: {"P_1XXD"=>"4609055203463140845733380215201743504304", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"32833", "id"=>"0108001416", "status"=>"made"}
+Completed 200 OK in 3170ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 20:09:28 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 2196ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416/payments/in_debt?P_1XXD=4609055203463140845733380215201743504304&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=32833&id" for 127.0.0.1 at 2012-04-23 20:09:31 +0200
+Processing by StudentsController#get_payments as JSON
+  Parameters: {"P_1XXD"=>"4609055203463140845733380215201743504304", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"32833", "id"=>"0108001416", "status"=>"in_debt", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 8782ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 20:09:39 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 3239ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416/payments/in_debt?P_1XXD=4609055203463140845733380215201743504304&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=32833&id" for 127.0.0.1 at 2012-04-23 20:09:43 +0200
+Processing by StudentsController#get_payments as XML
+  Parameters: {"P_1XXD"=>"4609055203463140845733380215201743504304", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"32833", "id"=>"0108001416", "status"=>"in_debt"}
+Completed 200 OK in 2265ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 20:09:45 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 3041ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416?P_1XXD=4609055203463140845733380215201743504304&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=32833&id" for 127.0.0.1 at 2012-04-23 20:09:48 +0200
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"4609055203463140845733380215201743504304", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"32833", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 2630ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 20:09:51 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1429ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416?P_1XXD=4609055203463140845733380215201743504304&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=32833&id" for 127.0.0.1 at 2012-04-23 20:09:52 +0200
+Processing by StudentsController#show as XML
+  Parameters: {"P_1XXD"=>"4609055203463140845733380215201743504304", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"32833", "id"=>"0108001416"}
+Completed 200 OK in 2224ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416?P_1XXD=0&P_2XXI=0&P_3XXC=0" for 127.0.0.1 at 2012-04-23 20:09:54 +0200
+Processing by StudentsController#show as HTML
+  Parameters: {"P_1XXD"=>"0", "P_2XXI"=>"0", "P_3XXC"=>"0", "id"=>"0108001416"}
+  Rendered text template (0.0ms)
+Completed 401 Unauthorized in 623ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416?P_1XXD=0&P_2XXI=0&P_3XXC=0" for 127.0.0.1 at 2012-04-23 20:09:55 +0200
+Processing by StudentsController#show as HTML
+  Parameters: {"P_1XXD"=>"0", "P_2XXI"=>"0", "P_3XXC"=>"0", "id"=>"0108001416"}
+  Rendered text template (0.0ms)
+Completed 401 Unauthorized in 558ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 20:09:56 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1747ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416/study_plan?P_1XXD=4609055203463140845733380215201743504304&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=32833&id" for 127.0.0.1 at 2012-04-23 20:09:57 +0200
+Processing by StudentsController#get_study_plan as JSON
+  Parameters: {"P_1XXD"=>"4609055203463140845733380215201743504304", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"32833", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 2624ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (1.7ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 20:10:00 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1501ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416/study_plan?P_1XXD=4609055203463140845708389285167492772213&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=33081&id" for 127.0.0.1 at 2012-04-23 20:10:02 +0200
+Processing by StudentsController#get_study_plan as XML
+  Parameters: {"P_1XXD"=>"4609055203463140845708389285167492772213", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"33081", "id"=>"0108001416"}
+Completed 200 OK in 2600ms (Views: 32.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (2.5ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 20:15:23 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1677ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions?P_1XXD=4609055203463140845747367718216256001564&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=33086&id" for 127.0.0.1 at 2012-04-23 20:15:25 +0200
+Processing by ExamsController#get_sessions as JSON
+  Parameters: {"P_1XXD"=>"4609055203463140845747367718216256001564", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"33086", "id"=>nil, "exam"=>{"id"=>nil}}
+Completed 200 OK in 13634ms (Views: 0.2ms | ActiveRecord: 2.3ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 20:15:38 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1870ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions?P_1XXD=4609055203463140845747367718216256001564&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=33086&id" for 127.0.0.1 at 2012-04-23 20:15:40 +0200
+Processing by ExamsController#get_sessions as XML
+  Parameters: {"P_1XXD"=>"4609055203463140845747367718216256001564", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"33086", "id"=>nil}
+Completed 200 OK in 12514ms (Views: 39.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 20:18:02 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1593ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/bookings?P_1XXD=4609055203463140845746281617902433444447&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=33089&id" for 127.0.0.1 at 2012-04-23 20:18:04 +0200
+Processing by ExamsController#get_bookings as XML
+  Parameters: {"P_1XXD"=>"4609055203463140845746281617902433444447", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"33089", "id"=>nil}
+Completed 200 OK in 3359ms (Views: 16.7ms | ActiveRecord: 3.8ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 20:18:08 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1373ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/bookings?P_1XXD=4609055203463140845746281617902433444447&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=33089&id" for 127.0.0.1 at 2012-04-23 20:18:09 +0200
+Processing by ExamsController#get_bookings as JSON
+  Parameters: {"P_1XXD"=>"4609055203463140845746281617902433444447", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"33089", "id"=>nil, "exam"=>{"id"=>nil}}
+Completed 200 OK in 3697ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 20:18:13 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 2152ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions?P_1XXD=4609055203463140845746281617902433444447&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=33089&id" for 127.0.0.1 at 2012-04-23 20:18:15 +0200
+Processing by ExamsController#get_sessions as JSON
+  Parameters: {"P_1XXD"=>"4609055203463140845746281617902433444447", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"33089", "id"=>nil, "exam"=>{"id"=>nil}}
+Completed 200 OK in 12888ms (Views: 0.4ms | ActiveRecord: 1.5ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 20:18:28 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1668ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions?P_1XXD=4609055203463140845746281617902433444447&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=33089&id" for 127.0.0.1 at 2012-04-23 20:18:30 +0200
+Processing by ExamsController#get_sessions as XML
+  Parameters: {"P_1XXD"=>"4609055203463140845746281617902433444447", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"33089", "id"=>nil}
+Completed 200 OK in 15936ms (Views: 24.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 20:18:46 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1442ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416/isee?P_1XXD=4609055203463140845746281617902433444447&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=33089&id" for 127.0.0.1 at 2012-04-23 20:18:47 +0200
+Processing by StudentsController#get_isee as JSON
+  Parameters: {"P_1XXD"=>"4609055203463140845746281617902433444447", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"33089", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 2857ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 20:18:50 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 2818ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416/isee?P_1XXD=4609055203463140845746281617902433444447&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=33089&id" for 127.0.0.1 at 2012-04-23 20:18:53 +0200
+Processing by StudentsController#get_isee as XML
+  Parameters: {"P_1XXD"=>"4609055203463140845746281617902433444447", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"33089", "id"=>"0108001416"}
+Completed 200 OK in 8034ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 20:19:01 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1627ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416/passed_exams?P_1XXD=4609055203463140845724591613056506446448&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=33090&id" for 127.0.0.1 at 2012-04-23 20:19:03 +0200
+Processing by StudentsController#get_passed_exams as JSON
+  Parameters: {"P_1XXD"=>"4609055203463140845724591613056506446448", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"33090", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 3265ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.7ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 20:19:06 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 2716ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416/passed_exams?P_1XXD=4609055203463140845724591613056506446448&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=33090&id" for 127.0.0.1 at 2012-04-23 20:19:09 +0200
+Processing by StudentsController#get_passed_exams as XML
+  Parameters: {"P_1XXD"=>"4609055203463140845724591613056506446448", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"33090", "id"=>"0108001416"}
+Completed 200 OK in 7713ms (Views: 21.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 20:19:16 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 6293ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416/payments/made?P_1XXD=4609055203463140845724591613056506446448&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=33090&id" for 127.0.0.1 at 2012-04-23 20:19:23 +0200
+Processing by StudentsController#get_payments as JSON
+  Parameters: {"P_1XXD"=>"4609055203463140845724591613056506446448", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"33090", "id"=>"0108001416", "status"=>"made", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 14683ms (Views: 0.2ms | ActiveRecord: 1.8ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 20:19:37 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 4228ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416/payments/made?P_1XXD=4609055203463140845724591613056506446448&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=33090&id" for 127.0.0.1 at 2012-04-23 20:19:42 +0200
+Processing by StudentsController#get_payments as XML
+  Parameters: {"P_1XXD"=>"4609055203463140845724591613056506446448", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"33090", "id"=>"0108001416", "status"=>"made"}
+Completed 200 OK in 3254ms (Views: 16.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 20:19:45 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 2684ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416/payments/in_debt?P_1XXD=4609055203463140845724591613056506446448&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=33090&id" for 127.0.0.1 at 2012-04-23 20:19:48 +0200
+Processing by StudentsController#get_payments as JSON
+  Parameters: {"P_1XXD"=>"4609055203463140845724591613056506446448", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"33090", "id"=>"0108001416", "status"=>"in_debt", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 2401ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 20:19:50 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1469ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416/payments/in_debt?P_1XXD=4609055203463140845724591613056506446448&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=33090&id" for 127.0.0.1 at 2012-04-23 20:19:52 +0200
+Processing by StudentsController#get_payments as XML
+  Parameters: {"P_1XXD"=>"4609055203463140845724591613056506446448", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"33090", "id"=>"0108001416", "status"=>"in_debt"}
+Completed 200 OK in 2257ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 20:19:54 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1628ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416?P_1XXD=4609055203463140845724591613056506446448&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=33090&id" for 127.0.0.1 at 2012-04-23 20:19:55 +0200
+Processing by StudentsController#show as JSON
+  Parameters: {"P_1XXD"=>"4609055203463140845724591613056506446448", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"33090", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 2908ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 20:19:58 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 2382ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416?P_1XXD=4609055203463140845724591613056506446448&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=33090&id" for 127.0.0.1 at 2012-04-23 20:20:01 +0200
+Processing by StudentsController#show as XML
+  Parameters: {"P_1XXD"=>"4609055203463140845724591613056506446448", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"33090", "id"=>"0108001416"}
+Completed 200 OK in 2489ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416?P_1XXD=0&P_2XXI=0&P_3XXC=0" for 127.0.0.1 at 2012-04-23 20:20:03 +0200
+Processing by StudentsController#show as HTML
+  Parameters: {"P_1XXD"=>"0", "P_2XXI"=>"0", "P_3XXC"=>"0", "id"=>"0108001416"}
+  Rendered text template (0.0ms)
+Completed 401 Unauthorized in 1478ms (Views: 67.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416?P_1XXD=0&P_2XXI=0&P_3XXC=0" for 127.0.0.1 at 2012-04-23 20:20:05 +0200
+Processing by StudentsController#show as HTML
+  Parameters: {"P_1XXD"=>"0", "P_2XXI"=>"0", "P_3XXC"=>"0", "id"=>"0108001416"}
+  Rendered text template (0.0ms)
+Completed 401 Unauthorized in 979ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 20:20:06 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 2730ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416/study_plan?P_1XXD=4609055203463140845761387426463820351716&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=33338&id" for 127.0.0.1 at 2012-04-23 20:20:08 +0200
+Processing by StudentsController#get_study_plan as JSON
+  Parameters: {"P_1XXD"=>"4609055203463140845761387426463820351716", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"33338", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 3831ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 20:20:12 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 4491ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416/study_plan?P_1XXD=4609055203463140845761387426463820351716&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=33338&id" for 127.0.0.1 at 2012-04-23 20:20:17 +0200
+Processing by StudentsController#get_study_plan as XML
+  Parameters: {"P_1XXD"=>"4609055203463140845761387426463820351716", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"33338", "id"=>"0108001416"}
+Completed 200 OK in 9128ms (Views: 38.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 20:23:35 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 2188ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions?P_1XXD=4609055203463140845744452487117703048803&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=33341&id" for 127.0.0.1 at 2012-04-23 20:23:37 +0200
+Processing by ExamsController#get_sessions as JSON
+  Parameters: {"P_1XXD"=>"4609055203463140845744452487117703048803", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"33341", "id"=>nil, "exam"=>{"id"=>nil}}
+Completed 200 OK in 17588ms (Views: 0.2ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/sessions/booking" for 127.0.0.1 at 2012-04-23 20:23:55 +0200
+Processing by ExamsController#book as JSON
+  Parameters: {"P_1XXD"=>"4609055203463140845744452487117703048803", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"33341", "id"=>nil, "prenotation_url"=>"http%3A%2F%2Fwww.servizi.uniparthenope.it%2Fself%2FGWEBPREN.GWEBPREN4%3FP_1XXD%3D4609055203463140845744452487117703048803%26P_2XXI%3D8164864248189188986636075745398284037334%26P_3XXC%3D61354%26P_ANNOPRI%3D2010%26P_NUM_APPELLO%3D2795122306258350889546106837138389998602%26P_ACTION%3DI%26P_INSE%3D4222730778224537054346106837138389998602%26P_PROG_INSE%3D", "exam"=>{"id"=>nil}}
+Completed 200 OK in 1988ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 20:23:57 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1700ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions?P_1XXD=4609055203463140845744452487117703048803&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=33341&id" for 127.0.0.1 at 2012-04-23 20:23:59 +0200
+Processing by ExamsController#get_sessions as XML
+  Parameters: {"P_1XXD"=>"4609055203463140845744452487117703048803", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"33341", "id"=>nil}
+Completed 200 OK in 13884ms (Views: 38.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 20:26:53 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 3173ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/bookings?P_1XXD=4609055203463140845745234907696074236505&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=33344&id" for 127.0.0.1 at 2012-04-23 20:26:56 +0200
+Processing by ExamsController#get_bookings as JSON
+  Parameters: {"P_1XXD"=>"4609055203463140845745234907696074236505", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"33344", "id"=>nil, "exam"=>{"id"=>nil}}
+Completed 200 OK in 5463ms (Views: 0.2ms | ActiveRecord: 1.3ms)
+
+
+Started DELETE "/sessions/bookings" for 127.0.0.1 at 2012-04-23 20:27:01 +0200
+Processing by ExamsController#delete_booking as JSON
+  Parameters: {"P_1XXD"=>"4609055203463140845745234907696074236505", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"33344", "id"=>nil, "delete_prenotation_url"=>"http%3A%2F%2Fwww.servizi.uniparthenope.it%2Fself%2FGWEBPREN.GWEBPREN4%3Fp_1xxd%3D4609055203463140845745234907696074236505%26p_2xxi%3D8164864248189188986636075745398284037334%26p_3xxc%3D3789%26P_ANNOPRI%3D2010%26P_NUM_APPELLO%3D2795122306258350889546106837138389998602%26P_ACTION%3DC", "exam"=>{"id"=>nil}}
+Completed 200 OK in 1414ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-04-23 20:27:03 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 1526ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/bookings?P_1XXD=4609055203463140845735716168396810603843&P_2XXI=8164864248189188986636075745398284037334&P_3XXC=33345&id" for 127.0.0.1 at 2012-04-23 20:27:04 +0200
+Processing by ExamsController#get_bookings as XML
+  Parameters: {"P_1XXD"=>"4609055203463140845735716168396810603843", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"33345", "id"=>nil}
+Completed 200 OK in 3511ms (Views: 68.4ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/sessions/bookings" for 127.0.0.1 at 2012-04-23 20:27:08 +0200
+Processing by ExamsController#delete_booking as XML
+  Parameters: {"hash"=>{"P_1XXD"=>"4609055203463140845735716168396810603843", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"33345", "id"=>nil, "delete_prenotation_url"=>"http%3A%2F%2Fwww.servizi.uniparthenope.it%2Fself%2FGWEBPREN.GWEBPREN4%3Fp_1xxd%3D4609055203463140845735716168396810603843%26p_2xxi%3D8164864248189188986636075745398284037334%26p_3xxc%3D3790%26P_ANNOPRI%3D2010%26P_NUM_APPELLO%3D0705132658789406823946106837138389998602%26P_ACTION%3DC"}}
+Completed 500 Internal Server Error in 2ms
+  [1m[35m (0.1ms)[0m  ROLLBACK

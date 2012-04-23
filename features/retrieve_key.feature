@@ -14,7 +14,7 @@ Feature: retrieve key
   Scenario Outline: invalid credentials
     Given I send and accept <format> 
     When I send a GET request for "students/0108001416/key" with password paramameter "xu3Yk_1" 
-    Then the response code should be 403 
+    Then the response code should be 401
 
     Examples:
       | format |

@@ -5,7 +5,6 @@ Then /^the sessions should be the followings:$/ do | table |
   last_response.content_type.should  have_content @content_type 
 
   response_data = get_hash_response["exam_sessions"]
-  puts response_data
 
   actual = [] 
   expected = []
@@ -75,7 +74,7 @@ end
 Given /^I have a delete prenotation url from an exam booking$/ do
 
   get "/sessions/bookings", @key
-  data = get_hash_response["exam_bookings"][5]
+  data = get_hash_response["exam_bookings"][0]
   data = data["exam_booking"] if @format == :json
 
   @delete_prenotation_url = URI.escape(data["delete_prenotation_url"], Regexp.new("[^#{URI::PATTERN::UNRESERVED}]")) 

@@ -8,8 +8,8 @@ Feature: Get exam bookings
     When I send a GET request for "/sessions/bookings" with the user's key
     Then the response code should be 200 
     And the bookings should be the followings:
-      | teaching                                                    | date       | time  | classroom      | professor             | booking_number | notes         |
-      | cartogr. num. e gis/ lab. cartogr. num. e gis cfu 10 ( 21li ) | 2012-03-27 | 14:30 | ufficio 420    | prof. giulio giunta   | 1              | prova scritta | 
+      | teaching                                                    | date       | classroom      | professor             | booking_number | notes         |
+      | matematica ii cfu 9 ( matii9 )      | 04/07/2012 09:00 | da definire    | dott. benedetta pellacci   | 1 | potrebbero subire variazioni | 
 
     # testing with various format 
     Examples:
