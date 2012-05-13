@@ -37232,3 +37232,35 @@ Processing by ExamsController#delete_booking as XML
   Parameters: {"hash"=>{"P_1XXD"=>"4609055203463140845735716168396810603843", "P_2XXI"=>"8164864248189188986636075745398284037334", "P_3XXC"=>"33345", "id"=>nil, "delete_prenotation_url"=>"http%3A%2F%2Fwww.servizi.uniparthenope.it%2Fself%2FGWEBPREN.GWEBPREN4%3Fp_1xxd%3D4609055203463140845735716168396810603843%26p_2xxi%3D8164864248189188986636075745398284037334%26p_3xxc%3D3790%26P_ANNOPRI%3D2010%26P_NUM_APPELLO%3D0705132658789406823946106837138389998602%26P_ACTION%3DC"}}
 Completed 500 Internal Server Error in 2ms
   [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-05-01 23:31:55 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 200 OK in 10848ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.4ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-05-01 23:32:06 +0200
+Processing by StudentsController#key as XML
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416"}
+Completed 200 OK in 6718ms (Views: 48.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-05-01 23:32:13 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416", "student"=>{"id"=>"0108001416"}}
+Completed 401 Unauthorized in 2261ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/students/0108001416/key?password=[FILTERED]" for 127.0.0.1 at 2012-05-01 23:32:15 +0200
+Processing by StudentsController#key as XML
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416"}
+Completed 401 Unauthorized in 1616ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK

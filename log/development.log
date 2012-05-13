@@ -1156,3 +1156,187 @@ Migrating to AddColumnToExamSessions (20120423181332)
   [1m[36m (44.6ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120423172455')[0m
   [1m[35m (44.3ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20120321190932')
   [1m[36m (44.3ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20120325211800')[0m
+
+
+Started GET "/projects" for 127.0.0.1 at 2012-05-01 23:29:34 +0200
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-05-01 23:29:34 +0200
+
+ActionController::RoutingError (No route matches [GET] "/projects"):
+  actionpack (3.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.1) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.1) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.1) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.1) lib/rails/engine.rb:479:in `call'
+  railties (3.2.1) lib/rails/application.rb:220:in `call'
+  railties (3.2.1) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/lib/phusion_passenger/abstract_request_handler.rb:513:in `accept_and_process_next_request'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/lib/phusion_passenger/rack/application_spawner.rb:206:in `start_request_handler'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/lib/phusion_passenger/rack/application_spawner.rb:171:in `block in handle_spawn_application'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/lib/phusion_passenger/utils.rb:479:in `safe_fork'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/lib/phusion_passenger/rack/application_spawner.rb:166:in `handle_spawn_application'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/lib/phusion_passenger/abstract_server.rb:180:in `start'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/lib/phusion_passenger/rack/application_spawner.rb:129:in `start'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/lib/phusion_passenger/spawn_manager.rb:253:in `block (2 levels) in spawn_rack_application'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/lib/phusion_passenger/spawn_manager.rb:246:in `block in spawn_rack_application'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/lib/phusion_passenger/abstract_server_collection.rb:82:in `block in synchronize'
+  <internal:prelude>:10:in `synchronize'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/lib/phusion_passenger/spawn_manager.rb:244:in `spawn_rack_application'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/lib/phusion_passenger/spawn_manager.rb:137:in `spawn_application'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/helper-scripts/passenger-spawn-server:99:in `<main>'
+
+
+Served asset /rails.png - 200 OK (59ms)
+  Rendered /home/sh4d/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (4.3ms)
+
+
+Started GET "/students/0108001416/keys" for 127.0.0.1 at 2012-05-01 23:29:39 +0200
+
+ActionController::RoutingError (No route matches [GET] "/students/0108001416/keys"):
+  actionpack (3.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.1) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.1) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.1) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.1) lib/rails/engine.rb:479:in `call'
+  railties (3.2.1) lib/rails/application.rb:220:in `call'
+  railties (3.2.1) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/lib/phusion_passenger/abstract_request_handler.rb:513:in `accept_and_process_next_request'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/lib/phusion_passenger/rack/application_spawner.rb:206:in `start_request_handler'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/lib/phusion_passenger/rack/application_spawner.rb:171:in `block in handle_spawn_application'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/lib/phusion_passenger/utils.rb:479:in `safe_fork'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/lib/phusion_passenger/rack/application_spawner.rb:166:in `handle_spawn_application'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/lib/phusion_passenger/abstract_server.rb:180:in `start'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/lib/phusion_passenger/rack/application_spawner.rb:129:in `start'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/lib/phusion_passenger/spawn_manager.rb:253:in `block (2 levels) in spawn_rack_application'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/lib/phusion_passenger/spawn_manager.rb:246:in `block in spawn_rack_application'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/lib/phusion_passenger/abstract_server_collection.rb:82:in `block in synchronize'
+  <internal:prelude>:10:in `synchronize'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/lib/phusion_passenger/spawn_manager.rb:244:in `spawn_rack_application'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/lib/phusion_passenger/spawn_manager.rb:137:in `spawn_application'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/helper-scripts/passenger-spawn-server:99:in `<main>'
+
+
+  Rendered /home/sh4d/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/students/0108001416/keys.json" for 127.0.0.1 at 2012-05-01 23:29:52 +0200
+
+ActionController::RoutingError (No route matches [GET] "/students/0108001416/keys.json"):
+  actionpack (3.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.1) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.1) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.1) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.1) lib/rails/engine.rb:479:in `call'
+  railties (3.2.1) lib/rails/application.rb:220:in `call'
+  railties (3.2.1) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/lib/phusion_passenger/abstract_request_handler.rb:513:in `accept_and_process_next_request'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/lib/phusion_passenger/rack/application_spawner.rb:206:in `start_request_handler'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/lib/phusion_passenger/rack/application_spawner.rb:171:in `block in handle_spawn_application'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/lib/phusion_passenger/utils.rb:479:in `safe_fork'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/lib/phusion_passenger/rack/application_spawner.rb:166:in `handle_spawn_application'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/lib/phusion_passenger/abstract_server.rb:180:in `start'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/lib/phusion_passenger/rack/application_spawner.rb:129:in `start'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/lib/phusion_passenger/spawn_manager.rb:253:in `block (2 levels) in spawn_rack_application'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/lib/phusion_passenger/spawn_manager.rb:246:in `block in spawn_rack_application'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/lib/phusion_passenger/abstract_server_collection.rb:82:in `block in synchronize'
+  <internal:prelude>:10:in `synchronize'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/lib/phusion_passenger/spawn_manager.rb:244:in `spawn_rack_application'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/lib/phusion_passenger/spawn_manager.rb:137:in `spawn_application'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /home/sh4d/.passenger/standalone/3.0.12-x86-ruby1.9.3-linux-gcc4.6.1-1002/support/helper-scripts/passenger-spawn-server:99:in `<main>'
+
+
+  Rendered /home/sh4d/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/students/0108001416/keys.json" for 127.0.0.1 at 2012-05-01 23:30:32 +0200
+
+ActionController::RoutingError (No route matches [GET] "/students/0108001416/keys.json"):
+  actionpack (3.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.1) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.1) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.1) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.1) lib/rails/engine.rb:479:in `call'
+  railties (3.2.1) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.1) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/sh4d/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/sh4d/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/sh4d/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/sh4d/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (3.7ms)
+
+
+Started GET "/students/0108001416/key.json" for 127.0.0.1 at 2012-05-01 23:32:48 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"id"=>"0108001416"}
+Completed 401 Unauthorized in 2569ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416/key.json?password=[FILTERED]" for 127.0.0.1 at 2012-05-01 23:33:32 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416"}
+Completed 200 OK in 8206ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/0108001416/key.json?password=[FILTERED]" for 127.0.0.1 at 2012-05-01 23:34:04 +0200
+Processing by StudentsController#key as JSON
+  Parameters: {"password"=>"[FILTERED]", "id"=>"0108001416"}
+Completed 200 OK in 8124ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-05-01 23:37:41 +0200
+Served asset /rails.png - 200 OK (3ms)
