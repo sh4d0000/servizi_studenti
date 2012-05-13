@@ -1,6 +1,6 @@
 Feature: Get personal data
   Scenario Outline: Getting personal data about current user
-    Given I am logged in as 0108001416 with pass x5Zu3Yk_1
+    Given I am logged in as 0108001416 with pass qwerty12 
     And I send and accept <format> 
     When I send a GET request for "/students/0108001416" with the user's key
     Then the response code should be 200 

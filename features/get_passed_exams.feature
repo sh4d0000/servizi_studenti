@@ -1,7 +1,7 @@
 Feature: Get passed exams 
 
   Background:
-    Given I am logged in as 0108001416 with pass x5Zu3Yk_1
+    Given I am logged in as 0108001416 with pass qwerty12 
 
   Scenario Outline: Getting the passed exams about current user
     Given I send and accept <format> 
